@@ -1,0 +1,718 @@
+
+@import url('https://fonts.googleapis.com/css2? family= Black+Ops+One & family= Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600; 0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900 & familia = Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0 ,700;0,800;0,900; 1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900 & display=swap');
+
+/*!----------RESET----------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Black Ops One', cursiva;
+    font-family: 'Exo 2', sans-serif;
+}
+
+/*!----------HEADER----------*/
+
+header{
+    background-color: #0f0f0f;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header h1{
+    color: #F20D0A;
+    font-size: 60px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:900;
+    margin-left: 15px;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+header nav ul li{
+    /* margin: 5px 10px 0px 10px; */
+    border: solid 2px red;
+    padding-right: 95px;
+    padding-left: 95px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bolder;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/*!----------MAIN----------*/
+
+.hero{
+    width: 100%;
+    height: 80vh;
+    color: black;
+    background-image: url(../img/background4herosection.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h2{
+    font-size: 55px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 900px;
+    color: white;
+    text-align: center;
+}
+
+.bienvenidos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    background-image: url(../img/backgroundbienvenidos2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bienvenidos h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 55px;
+    font-weight:900;
+    text-align: center;
+    color: white;
+    font-family: 'Black Ops One';
+}
+
+.bienvenidos p{
+    color: white;
+    text-align: justify;
+    margin: 20px 20px 20px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+.ofertas_imperdibles h2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight:600;
+    border: solid 2px red;
+}
+
+.productos_ofertas_imperdibles{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.productos_ofertas_imperdibles div img{
+    width: 250px;
+    height: 250px;
+}
+
+.productos_ofertas_imperdibles div{
+    width: 254px;
+    height: 350px;
+    border: 2px solid red;
+    box-shadow: 0px 0px 5px 3px;
+    margin: 10px;
+    text-align: center;
+}
+
+.productos_ofertas_imperdibles div h3{
+    margin: 10px;
+}
+
+.productos_ofertas_imperdibles div a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border: solid 2px red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight:600;
+}
+
+.te_puede_interesar h2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight:600;
+    border: solid 2px red;
+}
+
+.productos_te_puede_interesar{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.productos_te_puede_interesar div img{
+    width: 250px;
+    height: 250px;
+}
+
+.productos_te_puede_interesar div{
+    width: 254px;
+    height: 350px;
+    border: 2px solid red;
+    box-shadow: 0px 0px 5px 3px;
+    margin: 10px;
+    text-align: center;
+}
+
+.productos_te_puede_interesar div h3{
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.productos_te_puede_interesar div a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border: solid 2px red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight:600;
+}
+
+.conoce_nuestros_servicios h2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight:600;
+    border: solid 2px red;
+}
+
+.conoce_nuestros_servicios_contenedor{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.conoce_nuestros_servicios_contenedor div img{
+    width: 350px;
+    height: 350px;
+}
+
+.conoce_nuestros_servicios_contenedor div{
+    width: 354px;
+    height: 450px;
+    border: 2px solid red;
+    box-shadow: 0px 0px 5px 3px;
+    margin: 10px;
+    text-align: center;
+}
+
+.conoce_nuestros_servicios_contenedor h3{
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight:600;
+}
+
+.conoce_nuestros_servicios_contenedor div a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border: solid 2px red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight:600;
+}
+
+/*!----------FOOTER----------*/
+
+footer{
+    background-color: #0f0f0f;
+    padding-top: 10px;
+}
+
+.Footer_Contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Footer_ZeroLag{
+    margin-left: 15px;
+}
+
+.Footer_ZeroLag h2{
+    color:red;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+
+.Footer_ZeroLag p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 12px;
+}
+
+.Medios_De_Pago h3{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-left: 2px;
+}
+
+.Medios_De_Pago img{
+    margin: 2px 4px 2px 4px;
+}
+
+.Redes_Sociales{
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.Redes_Sociales h3{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.Redes_Sociales a img{
+    height: 30px;
+    width: 30px;
+    margin: 2px 2px 2px 2px;
+    border-radius: 10px;
+}
+
+.Derechos_De_Autor{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: black;
+}
+
+.Derechos_De_Autor p{
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+/*!----------NOSOTROS----------*/
+
+.Quienes_Somos h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 55px;
+    font-weight: 900; margin: 5px 20px 5px 20px;
+    text-shadow: -2px -2px 3px red;
+}
+
+.Quienes_Somos_Contenedor img{
+    width: 400px;
+    height: 200px;
+    margin-right: 20px;
+    box-shadow: 0px 0px 5px 3px;
+}
+
+.Quienes_Somos_Contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.Quienes_Somos_Contenedor div p{
+text-align: justify;
+margin-left:  20px;
+margin-top: 10px;
+width: 90%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+}
+
+.Nuestra_Mision h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 55px;
+    font-weight: 900;
+    margin: 5px 20px 5px 20px;
+    text-shadow: -2px -2px 3px red;
+}
+
+.Nuestra_Mision_Contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Nuestra_Mision_Contenedor img{
+    width: 468px;
+    height: 268px;
+    margin-right: 20px;
+    box-shadow: 0px 0px 5px 3px;
+}
+
+.Nuestra_Mision_Contenedor p{
+    text-align: justify;
+    margin-left:  20px;
+    margin-top: 10px;
+    width: 90%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.Lo_Que_Nos_Diferencia h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 55px;
+    font-weight: 900;
+    margin: 5px 20px 5px 20px;
+    text-shadow: -2px -2px 3px red;
+}
+
+.Lo_Que_Nos_Diferencia_Contenedor img{
+    width: 468px;
+    height: 268px;
+    margin-right: 20px;
+    box-shadow: 0px 0px 5px 3px;
+}
+
+.Lo_Que_Nos_Diferencia_Contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Lo_Que_Nos_Diferencia_Contenedor div p{
+    text-align: justify;
+    margin-left:  20px;
+    margin-top: 10px;
+    width: 90%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.Nuestros_Valores h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 55px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-shadow: -2px -2px 3px red;
+}
+
+.Nuestros_Valores_Contenedor{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Nuestros_Valores_Contenedor div{
+border: 2px solid red;
+box-shadow: 0px 0px 5px 3px;
+border-radius: 10px;
+width: 355px;
+height: 640px;
+text-align: center;
+margin: 10px;
+}
+
+.Nuestros_Valores_Contenedor div img{
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.Nuestros_Valores_Contenedor div h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin: 10px 10px 10px 10px;
+}
+
+.Nuestros_Valores_Contenedor div p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    margin: 10px 10px 10px 10px
+}
+
+.Revolución_Digital h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    margin: 5px 20px 5px 20px;
+    text-shadow: -2px -2px 3px red;
+}
+
+/*!----------PRODUCTOS----------*/
+
+.Productos h2{
+font-family: 'Courier New', Courier, monospace;
+font-size: 55px;
+font-weight: 900; margin: 5px 20px 5px 20px;
+text-shadow: -2px -2px 3px red;
+}
+
+.Productos_Contenedor{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Productos_Contenedor div{
+    width: 254px;
+    height: 350px;
+    border: 2px solid red;
+    box-shadow: 0px 0px 5px 3px;
+    text-align: center;
+    margin: 10px;
+}
+
+.Productos_Contenedor div img{
+    width: 250px;
+    height: 250px;
+}
+
+.Productos_Contenedor div h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}
+
+.Productos_Contenedor div a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border: solid 2px red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight:600;
+}
+
+/*!----------SERVICIOS----------*/
+
+.Servicios h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 55px;
+    font-weight: 900; 
+    margin: 5px 20px 5px 20px;
+    text-shadow: -2px -2px 3px red;
+}
+
+.Servicios_Contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Servicios_Contenedor div img{
+    width: 496px;
+    height: 350px;
+}
+
+.Servicios_Contenedor div{
+    width: 500px;
+    height: 770px;
+    border: 2px solid red;
+    box-shadow: 0px 0px 5px 3px;
+    text-align: center;
+    margin: 10px;
+}
+
+.Servicios_Contenedor div h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-size: 20px;
+    margin: 10px 10px 10px 10px;
+}
+
+.Servicios_Contenedor div p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    margin: 10px 10px 10px 10px
+}
+
+.Servicios_Contenedor div a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border: solid 2px red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight:600;
+}
+
+/*!----------CONTACTANOS----------*/
+
+.Formulario h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 55px;
+    font-weight: 900;
+    margin: 5px 20px 5px 20px;
+    text-shadow: -2px -2px 3px red;
+}
+
+.Formulario_Contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.Formulario_Contenedor form{
+    box-shadow: 0px 0px 5px 3px;
+    border: 2px solid red;
+    width: 70%;
+    background-color: #0f0f0f;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.Formulario_Contenedor form div label{
+    margin: 5px 20px 5px 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Nombre{
+    display: flex;
+    flex-direction: column;
+}
+
+.Apellido{
+    display: flex;
+    flex-direction: column;
+}
+
+.Correo{
+    display: flex;
+    flex-direction: column;
+}
+
+.Contraseña{
+    display: flex;
+    flex-direction: column;
+}
+
+.Mensaje{
+    display: flex;
+    flex-direction: column;
+}
+
+ .Nombre input{
+    border: 2px solid red;
+    margin: 5px 20px 5px 20px;
+    width: 40%;
+ }
+
+ .Apellido input{
+    border: 2px solid red;
+    margin: 5px 20px 5px 20px;
+    width: 40%;
+ }
+
+ .Correo input{
+    border: 2px solid red;
+    margin: 5px 20px 5px 20px;
+    width: 40%;
+ }
+
+ .Contraseña input{
+    border: 2px solid red;
+    margin: 5px 20px 5px 20px;
+    width: 40%;
+ }
+
+.Genero div input{
+    margin: 5px 0px 5px 0px;
+}
+
+.Pais{
+    display: flex;
+    flex-direction: column;
+}
+ .Pais select{
+   border: 2px solid red;
+   margin: 5px 20px 5px 20px;
+   width: 40%;
+ }
+
+ .Motivo {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .Motivo select{
+    border: 2px solid red;
+    margin: 5px 20px 5px 20px;
+    width: 40%;
+ }
+
+.Mensaje textarea{
+    margin: 5px 20px 5px 20px;
+    border: 2px solid red;
+}
+
+.EnviarRestablecer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    align-items: end;
+}
+
+.EnviarRestablecer input{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    background-color: rgb(84, 245, 84);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    color: black
+}
+
+.Informacion_Contacto{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Contacto_Contenedor h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.Contacto_Contenedor p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.Informacion_Contacto iframe{
+    box-shadow: 0px 0px 5px 2px;
+    border-radius: 10px;
+}
