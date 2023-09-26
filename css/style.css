@@ -15,47 +15,51 @@ body{
 }
 
 /*!----------HEADER----------*/
-
 header{
     background-color: #0f0f0f;
-    position: sticky;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    z-index: 1;
 }
 
-header h1{
-    color: #F20D0A;
-    font-size: 60px;
-    font-family:'Courier New', Courier, monospace;
-    font-weight:900;
-    margin-left: 15px;
-}
-
-header nav ul{
-    list-style: none;
-    display: flex;
-    justify-content:space-evenly;
-}
-
-header nav ul li{
-    /* margin: 5px 10px 0px 10px; */
-    border: solid 2px red;
-    padding-right: 95px;
-    padding-left: 95px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    background-color: black;
+.Header_Contenedor a{
     font-family: 'Courier New', Courier, monospace;
-    font-weight:bolder;
+    font-size: 60px;
+    font-weight: 900;
+    color: red;
 }
 
-header nav ul li a{
-    text-decoration: none;
+.Header_Contenedor a span{
     color: white;
 }
 
+.Header_Contenedor form input{
+    border: solid 2px red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Header_Contenedor form button{
+    padding: 6px;
+    border-radius: 10px;
+    border: solid 2px red;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Navbar_Contenedor ul li a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0;
+}
+
+.Navbar_Contenedor ul li{
+    background-color: black;
+    border: solid 2px red;
+    padding: 0px 55px 0px 55px;
+    border-radius: 10px;
+}
 /*!----------MAIN----------*/
 
 .hero{
@@ -74,7 +78,7 @@ header nav ul li a{
 .hero h2{
     font-size: 55px;
     font-family:'Courier New', Courier, monospace;
-    font-weight: 900px;
+    font-weight: 900;
     color: white;
     text-align: center;
 }
@@ -98,7 +102,7 @@ header nav ul li a{
     font-weight:900;
     text-align: center;
     color: white;
-    font-family: 'Black Ops One';
+    
 }
 
 .bienvenidos p{
@@ -718,7 +722,7 @@ text-shadow: -2px -2px 3px red;
     border-radius: 10px;
 }
 
-/*!-----EXPERIENCIA-----*/
+/*!-----EXPERIENCIA GRID-----*/
 .Experiencia_ZeroLag h2{
     font-family: 'Courier New', Courier, monospace;
     font-size: 55px;
@@ -764,6 +768,8 @@ text-shadow: -2px -2px 3px red;
     font-size: 13px;
     font-style: italic;
     text-align: justify;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
 }
 
 .grid-galeria-experiencia div img{
@@ -771,4 +777,95 @@ text-shadow: -2px -2px 3px red;
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
+}
+
+/*!-----PSEUDOCLASES Y PSEUDOELEMENTOS-----*/
+.Header_Contenedor a:hover{
+    color: red;
+    text-shadow: -2px -2px 3px red;
+}
+
+.Input_Buscar:hover{
+    border: 3px solid rgb(0, 194, 0)
+}
+
+.Boton_Buscar:hover{
+    border: 2px solid rgb(7, 80, 0);
+    background-color: rgb(0, 194, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.a_Inicio:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.li_Inicio:hover{
+    background-color: rgb(0, 194, 0);
+    border: 2px solid rgb(7, 80, 0);
+}
+
+.a_Nosotros:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.li_Nosotros:hover{
+    background-color: rgb(0, 194, 0);
+    border: 2px solid rgb(7, 80, 0);
+}
+
+.a_Productos:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.li_Productos:hover{
+    background-color: rgb(0, 194, 0);
+    border: 2px solid rgb(7, 80, 0);
+}
+
+.a_Servicios:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.li_Servicios:hover{
+    background-color: rgb(0, 194, 0);
+    border: 2px solid rgb(7, 80, 0);
+}
+
+.a_Contacto:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.li_Contacto:hover{
+    background-color: rgb(0, 194, 0);
+    border: 2px solid rgb(7, 80, 0);
+}
+
+.a_Experiencia:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.li_Experiencia:hover{
+    background-color: rgb(0, 194, 0);
+    border: 2px solid rgb(7, 80, 0);
 }
