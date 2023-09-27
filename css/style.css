@@ -62,57 +62,6 @@ header{
 }
 /*!----------MAIN----------*/
 
-.hero{
-    width: 100%;
-    height: 80vh;
-    color: black;
-    background-image: url(../img/background4herosection.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.hero h2{
-    font-size: 55px;
-    font-family:'Courier New', Courier, monospace;
-    font-weight: 900;
-    color: white;
-    text-align: center;
-}
-
-.bienvenidos{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 80vh;
-    background-image: url(../img/backgroundbienvenidos2.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.bienvenidos h2{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 55px;
-    font-weight:900;
-    text-align: center;
-    color: white;
-    
-}
-
-.bienvenidos p{
-    color: white;
-    text-align: justify;
-    margin: 20px 20px 20px 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
-}
-
 .ofertas_imperdibles h2{
     text-align: center;
     background-color: black;
@@ -121,6 +70,7 @@ header{
     font-size: 30px;
     font-weight:600;
     border: solid 2px red;
+    margin: 0;
 }
 
 .productos_ofertas_imperdibles{
@@ -138,12 +88,17 @@ header{
     width: 254px;
     height: 350px;
     border: 2px solid red;
-    box-shadow: 0px 0px 5px 3px;
+    box-shadow: 0px 0px 5px 3px black;
     margin: 10px;
     text-align: center;
+    background-color:#0f0f0f;
 }
 
 .productos_ofertas_imperdibles div h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight:100;
+    color: white;
     margin: 10px;
 }
 
@@ -166,6 +121,7 @@ header{
     font-size: 30px;
     font-weight:600;
     border: solid 2px red;
+    margin: 0;
 }
 
 .productos_te_puede_interesar{
@@ -183,14 +139,18 @@ header{
     width: 254px;
     height: 350px;
     border: 2px solid red;
-    box-shadow: 0px 0px 5px 3px;
+    box-shadow: 0px 0px 5px 3px black;
     margin: 10px;
     text-align: center;
+    background-color: #0f0f0f;
 }
 
 .productos_te_puede_interesar div h3{
-    margin: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight:100;
+    color: white;
+    margin: 10px;
 }
 
 .productos_te_puede_interesar div a{
@@ -212,6 +172,7 @@ header{
     font-size: 30px;
     font-weight:600;
     border: solid 2px red;
+    margin: 0;
 }
 
 .conoce_nuestros_servicios_contenedor{
@@ -229,14 +190,16 @@ header{
     width: 354px;
     height: 450px;
     border: 2px solid red;
-    box-shadow: 0px 0px 5px 3px;
+    box-shadow: 0px 0px 5px 3px black;
     margin: 10px;
     text-align: center;
+    background-color: #0f0f0f;
 }
 
 .conoce_nuestros_servicios_contenedor h3{
     margin: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
     font-size: 16px;
     font-weight:600;
 }
@@ -274,19 +237,23 @@ footer{
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 900;
+    margin-bottom: 0;
 }
 
 .Footer_ZeroLag p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     font-size: 12px;
+    margin-bottom: 0;
 }
 
 .Medios_De_Pago h3{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
+    font-weight: 100;
     margin-left: 2px;
+    margin-bottom: 0;
 }
 
 .Medios_De_Pago img{
@@ -302,6 +269,8 @@ footer{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
+    margin-bottom: 0;
+    font-weight: 100;
 }
 
 .Redes_Sociales a img{
@@ -322,12 +291,14 @@ footer{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
+    margin-bottom: 0;
 }
 
 /*!----------NOSOTROS----------*/
 
 .Quienes_Somos h2{
     font-family: 'Courier New', Courier, monospace;
+    color:black;
     font-size: 55px;
     font-weight: 900; margin: 5px 20px 5px 20px;
     text-shadow: -2px -2px 3px red;
@@ -337,7 +308,8 @@ footer{
     width: 400px;
     height: 200px;
     margin-right: 20px;
-    box-shadow: 0px 0px 5px 3px;
+    box-shadow: 0px 0px 5px 3px black;
+    color: black;
 }
 
 .Quienes_Somos_Contenedor{
@@ -350,9 +322,11 @@ footer{
 text-align: justify;
 margin-left:  20px;
 margin-top: 10px;
+margin-bottom: 0;
 width: 90%;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 20px;
+color: black;
 }
 
 .Nuestra_Mision h2{
@@ -361,6 +335,7 @@ font-size: 20px;
     font-weight: 900;
     margin: 5px 20px 5px 20px;
     text-shadow: -2px -2px 3px red;
+    color: black;
 }
 
 .Nuestra_Mision_Contenedor{
@@ -372,22 +347,25 @@ font-size: 20px;
     width: 468px;
     height: 268px;
     margin-right: 20px;
-    box-shadow: 0px 0px 5px 3px;
+    box-shadow: 0px 0px 5px 3px black;
 }
 
 .Nuestra_Mision_Contenedor p{
     text-align: justify;
     margin-left:  20px;
     margin-top: 10px;
+    margin-bottom: 0;
     width: 90%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
+    color: black;
 }
 
 .Lo_Que_Nos_Diferencia h2{
     font-family: 'Courier New', Courier, monospace;
     font-size: 55px;
     font-weight: 900;
+    color:black;
     margin: 5px 20px 5px 20px;
     text-shadow: -2px -2px 3px red;
 }
@@ -396,7 +374,7 @@ font-size: 20px;
     width: 468px;
     height: 268px;
     margin-right: 20px;
-    box-shadow: 0px 0px 5px 3px;
+    box-shadow: 0px 0px 5px 3px black;
 }
 
 .Lo_Que_Nos_Diferencia_Contenedor{
@@ -408,8 +386,10 @@ font-size: 20px;
     text-align: justify;
     margin-left:  20px;
     margin-top: 10px;
+    margin-bottom: 0;
     width: 90%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
     font-size: 20px;
 }
 
@@ -417,6 +397,7 @@ font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 55px;
     font-weight: 900;
+    color:black;
     text-align: center;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -430,18 +411,20 @@ font-size: 20px;
 
 .Nuestros_Valores_Contenedor div{
 border: 2px solid red;
-box-shadow: 0px 0px 5px 3px;
+box-shadow: 0px 0px 5px 3px black;
 border-radius: 10px;
 width: 355px;
 height: 640px;
 text-align: center;
 margin: 10px;
+background-color: #0f0f0f;
 }
 
 .Nuestros_Valores_Contenedor div img{
     width: 350px;
     height: 250px;
-    border-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .Nuestros_Valores_Contenedor div h3{
@@ -449,13 +432,19 @@ margin: 10px;
     font-size: 20px;
     text-align: left;
     margin: 10px 10px 10px 10px;
+    color: white;
+    font-weight:100;
+    line-height:normal;
 }
 
 .Nuestros_Valores_Contenedor div p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: 100;
     text-align: justify;
     font-size: 20px;
-    margin: 10px 10px 10px 10px
+    margin: 10px 10px 10px 10px;
+    line-height:normal;
 }
 
 .Revolución_Digital h2{
@@ -465,6 +454,8 @@ margin: 10px;
     text-align: center;
     margin: 5px 20px 5px 20px;
     text-shadow: -2px -2px 3px red;
+    line-height: normal;
+    color: black;
 }
 
 /*!----------PRODUCTOS----------*/
@@ -474,6 +465,7 @@ font-family: 'Courier New', Courier, monospace;
 font-size: 55px;
 font-weight: 900; margin: 5px 20px 5px 20px;
 text-shadow: -2px -2px 3px red;
+color:black;
 }
 
 .Productos_Contenedor{
@@ -486,9 +478,10 @@ text-shadow: -2px -2px 3px red;
     width: 254px;
     height: 350px;
     border: 2px solid red;
-    box-shadow: 0px 0px 5px 3px;
+    box-shadow: 0px 0px 5px 3px black;
     text-align: center;
     margin: 10px;
+    background-color:#0f0f0f;
 }
 
 .Productos_Contenedor div img{
@@ -499,6 +492,9 @@ text-shadow: -2px -2px 3px red;
 .Productos_Contenedor div h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight:100;
 }
 
 .Productos_Contenedor div a{
@@ -520,6 +516,7 @@ text-shadow: -2px -2px 3px red;
     font-weight: 900; 
     margin: 5px 20px 5px 20px;
     text-shadow: -2px -2px 3px red;
+    color: black;
 }
 
 .Servicios_Contenedor{
@@ -537,23 +534,29 @@ text-shadow: -2px -2px 3px red;
     width: 500px;
     height: 770px;
     border: 2px solid red;
-    box-shadow: 0px 0px 5px 3px;
+    box-shadow: 0px 0px 5px 3px black;
     text-align: center;
     margin: 10px;
+    background-color: #0f0f0f;
 }
 
 .Servicios_Contenedor div h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
     font-size: 20px;
+    font-weight: 900;
     margin: 10px 10px 10px 10px;
+    color: white;
 }
 
 .Servicios_Contenedor div p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     text-align: justify;
-    margin: 10px 10px 10px 10px
+    margin: 10px 10px 10px 10px;
+    color:white;
+    line-height:normal;
+    font-weight: 100;
 }
 
 .Servicios_Contenedor div a{
@@ -575,6 +578,7 @@ text-shadow: -2px -2px 3px red;
     font-weight: 900;
     margin: 5px 20px 5px 20px;
     text-shadow: -2px -2px 3px red;
+    color: black;
 }
 
 .Formulario_Contenedor{
@@ -583,7 +587,7 @@ text-shadow: -2px -2px 3px red;
 }
 
 .Formulario_Contenedor form{
-    box-shadow: 0px 0px 5px 3px;
+    box-shadow: 0px 0px 5px 3px black;
     border: 2px solid red;
     width: 70%;
     background-color: #0f0f0f;
@@ -687,13 +691,13 @@ text-shadow: -2px -2px 3px red;
 }
 
 .EnviarRestablecer input{
-    border: 2px solid white;
+    border: 2px solid red;
     border-radius: 10px;
     padding: 5px 5px 5px 5px;
-    background-color: rgb(84, 245, 84);
+    background-color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
-    color: black
+    color:white;
 }
 
 .Informacion_Contacto{
@@ -710,15 +714,17 @@ text-shadow: -2px -2px 3px red;
     font-weight: 900;
     margin-top: 5px;
     margin-bottom: 5px;
+    color: black;
 }
 
 .Contacto_Contenedor p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
+    color: black;
 }
 
 .Informacion_Contacto iframe{
-    box-shadow: 0px 0px 5px 2px;
+    box-shadow: 0px 0px 5px 2px black;
     border-radius: 10px;
 }
 
@@ -726,7 +732,8 @@ text-shadow: -2px -2px 3px red;
 .Experiencia_ZeroLag h2{
     font-family: 'Courier New', Courier, monospace;
     font-size: 55px;
-    font-weight: 900px;
+    font-weight: 900;
+    color: black;
     margin: 5px 20px 5px 20px;
     text-shadow: -2px -2px 3px red;
 }
@@ -734,6 +741,7 @@ text-shadow: -2px -2px 3px red;
 .Experiencia_ZeroLag p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
+    color: black;
     text-align: justify;
     margin-left: 20px;
     margin-right: 20px;
@@ -766,10 +774,13 @@ text-shadow: -2px -2px 3px red;
     padding: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 13px;
+    font-weight:100;
     font-style: italic;
     text-align: justify;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
+    margin: 0;
+    line-height:normal;
 }
 
 .grid-galeria-experiencia div img{
@@ -779,7 +790,7 @@ text-shadow: -2px -2px 3px red;
     border-radius: 10px;
 }
 
-/*!-----PSEUDOCLASES Y PSEUDOELEMENTOS-----*/
+/*!-----PSEUDOCLASES Y PSEUDOELEMENTOS INDEX-----*/
 .Header_Contenedor a:hover{
     color: red;
     text-shadow: -2px -2px 3px red;
@@ -869,3 +880,62 @@ text-shadow: -2px -2px 3px red;
     background-color: rgb(0, 194, 0);
     border: 2px solid rgb(7, 80, 0);
 }
+
+.productos_ofertas_imperdibles div a:hover{
+    background-color: rgb(0, 194, 0);
+    border: 2px solid rgb(7, 80, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.productos_te_puede_interesar div a:hover{
+    background-color: rgb(0, 194, 0);
+    border: 2px solid rgb(7, 80, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.conoce_nuestros_servicios_contenedor div a:hover{
+    background-color: rgb(0, 194, 0);
+    border: 2px solid rgb(7, 80, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/*!-----PESUDOCLASES Y PSEUDOELEMENTOS PRODUCTOS-----*/
+.Productos_Contenedor div a:hover {
+    background-color: rgb(0, 194, 0);
+    border: 2px solid rgb(7, 80, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/*!-----PESUDOCLASES Y PSEUDOELEMENTOS SERVICIOS-----*/
+.Servicios_Contenedor div a:hover{
+    background-color: rgb(0, 194, 0);
+    border: 2px solid rgb(7, 80, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/*!-----PESUDOCLASES Y PSEUDOELEMENTOS CONTACTO-----*/
+.EnviarRestablecer input:hover{
+    background-color: rgb(0, 194, 0);
+    border: 2px solid rgb(7, 80, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+} 
+
+/*!-----MEDIA QUERIE-----*/
