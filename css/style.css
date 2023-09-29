@@ -18,6 +18,38 @@ body{
 header{
     background-color: #0f0f0f;
 }
+.navbar{
+    padding: 0;
+    line-height:normal;
+}
+
+.Header_Navbar_Contenedor{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Header_Contenedor{
+    display: flex;
+}
+
+.boton_navbar{
+    background-color:red;
+    margin: 0px 10px 0px 0px;
+}
+
+.logo_navbar{
+    margin: 0;
+    padding: 0;
+}
+
+.barra_de_busqueda{
+    margin:0;
+    padding: 0;
+    margin-left: 15px;
+}
 
 .Header_Contenedor a{
     font-family: 'Courier New', Courier, monospace;
@@ -33,6 +65,8 @@ header{
 .Header_Contenedor form input{
     border: solid 2px red;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 5px;
 }
 
 .Header_Contenedor form button{
@@ -76,7 +110,7 @@ header{
 .productos_ofertas_imperdibles{
     display: flex;
     justify-content: space-around;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .productos_ofertas_imperdibles div img{
@@ -127,7 +161,7 @@ header{
 .productos_te_puede_interesar{
     display: flex;
     justify-content: space-around;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .productos_te_puede_interesar div img{
@@ -178,16 +212,16 @@ header{
 .conoce_nuestros_servicios_contenedor{
     display: flex;
     justify-content: space-around;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .conoce_nuestros_servicios_contenedor div img{
-    width: 350px;
+    width: 330px;
     height: 350px;
 }
 
 .conoce_nuestros_servicios_contenedor div{
-    width: 354px;
+    width: 334px;
     height: 450px;
     border: 2px solid red;
     box-shadow: 0px 0px 5px 3px black;
@@ -256,7 +290,12 @@ footer{
     margin-bottom: 0;
 }
 
-.Medios_De_Pago img{
+.imagenes_medios_de_pago{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagenes_medios_de_pago img{
     margin: 2px 4px 2px 4px;
 }
 
@@ -938,4 +977,208 @@ color:black;
     font-weight: 600;
 } 
 
-/*!-----MEDIA QUERIE-----*/
+/*!-----MEDIA QUERIE INDEX-----*/
+@media screen and (max-width:1100px){
+    .Navbar_Contenedor ul li {
+        background-color: black;
+        border: solid 2px red;
+        padding: 0px 30px 0px 30px;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .Header_Contenedor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .barra_de_busqueda{
+        margin: 0px 0px 10px 0px;
+        width: 100%;
+    }
+
+    .Input_Buscar{
+        margin:0;
+    }
+    .Medios_De_Pago h3{
+        text-align: center;
+    }
+
+    .imagenes_medios_de_pago{
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width:1025px){
+    .barra_de_busqueda{
+        margin: 0px 0px 10px 0px;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:991px){
+    .boton_navbar{
+        margin: 0px 10px 10px 0px;
+    }
+
+.boton_navbar_y_logo_navbar_contenedor{
+    width: 100%;
+    }
+}
+
+@media screen and (max-width:650px){
+    .Footer_ZeroLag h2{
+        font-size: 30px;
+    }
+
+    .Footer_ZeroLag p{
+        font-size: 12px;
+    }
+
+    .Medios_De_Pago h3{
+        font-size: 12px;
+    }
+
+    .Redes_Sociales h3{
+        font-size: 12px;
+    }
+
+    .logo_webpay{
+        width: 72px;
+        height: 24px;
+    }
+
+    .logo_mercado_libre{
+        width: 73px;
+        height: 24px;
+    }
+
+    .logo_santander{
+        width: 133.5px;
+        height: 24px;
+    }
+
+    .logo_bancoestado{
+        width: 126px;
+        height: 24px;
+    }
+
+    .logo_fpay{
+        width: 58.8px;
+        height: 24px;
+    }
+
+    .logo_transferencia_bancaria{
+        width: 103.11px;
+        height: 24px;
+    }
+
+    .Derechos_De_Autor p{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:576px){
+    .Header_Contenedor a{
+        font-size: 30px;
+    }
+
+    .Header_Contenedor form input{
+        font-size: 12px;
+    }
+
+    .Header_Contenedor form button{
+        font-size: 12px;
+    }
+
+    .Boton_Buscar:hover{
+        border: 2px solid rgb(7, 80, 0);
+        background-color: rgb(0, 194, 0);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: black;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .Navbar_Contenedor ul li a{
+        font-size: 12px;
+    }
+
+    .Navbar_Contenedor:hover ul li a{
+        font-size: 12px;
+    }
+
+    .ofertas_imperdibles h2{
+        font-size: 20px;
+    }
+
+    .productos_ofertas_imperdibles div h3{
+        font-size: 15px;
+    }
+
+    .productos_ofertas_imperdibles div a{
+        font-size: 10px;
+    }
+
+    .productos_ofertas_imperdibles div a:hover{
+        font-size: 10px;
+    }
+
+    .te_puede_interesar h2 {
+        font-size: 20px;
+    }
+
+    .productos_te_puede_interesar div h3{
+        font-size: 15px;
+    }
+
+    .productos_te_puede_interesar div a {
+        font-size: 10px;
+    }
+
+    .productos_te_puede_interesar div a:hover{
+        font-size: 10px;
+    }
+
+    .conoce_nuestros_servicios h2{
+        font-size: 20px;
+    }
+
+    .conoce_nuestros_servicios_contenedor h3{
+        font-size: 15px;
+    }
+
+    .conoce_nuestros_servicios_contenedor div a{
+        font-size: 10px;
+    } 
+
+    .conoce_nuestros_servicios_contenedor div a:hover{
+        font-size: 10px;
+    } 
+
+@media screen and (max-width:530px){
+    .Footer_Contenedor{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .Footer_ZeroLag h2{
+        text-align: center;
+    }
+
+    .Footer_ZeroLag p{
+        text-align: center;
+    }
+
+    .Medios_De_Pago h3{
+        text-align: center;
+        margin: 10px 0px 0px 0px;
+    }
+
+    .imagenes_medios_de_pago{
+        justify-content: center;
+    }
+}
+}

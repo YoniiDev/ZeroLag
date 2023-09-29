@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <title>ZeroLag | Redefiniendo la Velocidad y la Eficiencia con ZeroLag</title>
 </head>
@@ -13,21 +13,23 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg">
-            <div class="Header_Navbar_Contenedor container-fluid d-flex flex-column">
-                <div class="Header_Contenedor container-fluid d-flex justify-content-between">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <a class="navbar-brand" href="./index.html"><span>Z</span>ero<span>L</span>ag</a>
-                    <form class="container-fluid d-flex align-items-center" role="search">
-                        <input class="Input_Buscar form-control me-2" type="search"
+            <div class="Header_Navbar_Contenedor">
+                <div class="Header_Contenedor">
+                    <div class="boton_navbar_y_logo_navbar_contenedor">
+                        <button class="boton_navbar navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <a class="logo_navbar navbar-brand" href="./index.html"><span>Z</span>ero<span>L</span>ag</a>
+                    </div>
+                    <form class="barra_de_busqueda container-fluid d-flex align-items-center" role="search">
+                        <input class="Input_Buscar form-control" type="search"
                             placeholder="Busca el producto de tus sueños" aria-label="Search">
                         <button class="Boton_Buscar" type="submit">Buscar</button>
                     </form>
                 </div>
-                <div class="Navbar_Contenedor collapse navbar-collapse container-fluid" id="navbarTogglerDemo02">
+                <div class="Navbar_Contenedor collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 container-fluid d-flex justify-content-around">
                         <li class="li_Inicio">
                             <a class="a_Inicio nav-link" aria-current="page" href="./index.html">Inicio</a>
@@ -59,22 +61,25 @@
         <section class="hero_section">
             <div id="carrusel_hero_section" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carrusel_hero_section" data-bs-slide-to="0"
-                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carrusel_hero_section" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carrusel_hero_section" data-bs-slide-to="1"
                         aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carrusel_hero_section" data-bs-slide-to="2"
                         aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="../Proyecto_ZeroLag/img/herosectiondesktop1.png" class="d-block w-100" alt="bienvenidosdesktop1">
+                    <div class="imagen_corrusel_herosection carousel-item active">
+                        <img src="../Proyecto_ZeroLag/img/herosectiondesktop1.png" class="d-block w-100"
+                            alt="bienvenidosdesktop1">
                     </div>
-                    <div class="carousel-item">
-                        <img src="../Proyecto_ZeroLag/img/herosectiondesktop2.png" class="d-block w-100" alt="bienvenidosdektop2">
+                    <div class="imagen_corrusel_herosection carousel-item">
+                        <img src="../Proyecto_ZeroLag/img/herosectiondesktop2.png" class="d-block w-100"
+                            alt="bienvenidosdektop2">
                     </div>
-                    <div class="carousel-item">
-                        <img src="../Proyecto_ZeroLag/img/herosectiondesktop3.png" class="d-block w-100" alt="bienvenidosdesktop3">
+                    <div class="imagen_corrusel_herosection carousel-item">
+                        <img src="../Proyecto_ZeroLag/img/herosectiondesktop3.png" class="d-block w-100"
+                            alt="bienvenidosdesktop3">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carrusel_hero_section"
@@ -92,8 +97,8 @@
         <section class="bienvenidos">
             <div id="carrusel_bienvenidos" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carrusel_bienvenidos" data-bs-slide-to="0"
-                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carrusel_bienvenidos" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carrusel_bienvenidos" data-bs-slide-to="1"
                         aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carrusel_bienvenidos" data-bs-slide-to="2"
@@ -101,13 +106,16 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="../Proyecto_ZeroLag/img/bienvenidosdektop2.png" class="d-block w-100" alt="bienvenidosdektop2">
+                        <img src="../Proyecto_ZeroLag/img/bienvenidosdektop2.png" class="d-block w-100"
+                            alt="bienvenidosdektop2">
                     </div>
                     <div class="carousel-item">
-                        <img src="../Proyecto_ZeroLag/img/bienvenidosdesktop1.png" class="d-block w-100" alt="bienvenidosdesktop1">
+                        <img src="../Proyecto_ZeroLag/img/bienvenidosdesktop1.png" class="d-block w-100"
+                            alt="bienvenidosdesktop1">
                     </div>
                     <div class="carousel-item">
-                        <img src="../Proyecto_ZeroLag/img/bienvenidosdektop2.png" class="d-block w-100" alt="bienvenidosdektop2">
+                        <img src="../Proyecto_ZeroLag/img/bienvenidosdektop2.png" class="d-block w-100"
+                            alt="bienvenidosdektop2">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carrusel_bienvenidos"
@@ -125,17 +133,17 @@
         <section class="ofertas_imperdibles">
             <h2>OFERTAS IMPERDIBLES</h2>
             <div class="productos_ofertas_imperdibles">
-                <div>
+                <div class="producto1">
                     <img src="./img/img1redimensionada.jpg" alt="enfriamiento liquido para pc">
                     <h3>Producto</h3>
                     <a href="">COMPRAR</a>
                 </div>
-                <div>
+                <div class="producto2">
                     <img src="./img/img2redimensionada.jpg" alt="SSD kingstone 1TB">
                     <h3>Producto</h3>
                     <a href="">COMPRAR</a>
                 </div>
-                <div>
+                <div class="producto3">
                     <img src="./img/img3redimensionada.jpg" alt="Mouse Gamer Logitech Pro">
                     <h3>Producto</h3>
                     <a href="">COMPRAR</a>
@@ -186,12 +194,14 @@
             </div>
             <div class="Medios_De_Pago">
                 <h3>Medios de pago</h3>
-                <img src="../Proyecto_ZeroLag/img/webpaylogo.png" alt="webpay logo">
-                <img src="../Proyecto_ZeroLag/img/mercadopagologo.png" alt="mercado pago logo">
-                <img src="../Proyecto_ZeroLag/img/santanderlogo.png" alt="santander logo">
-                <img src="../Proyecto_ZeroLag/img/bancoestadologo.png" alt="bancoestado logo">
-                <img src="../Proyecto_ZeroLag/img/fpaylogo.png" alt="fpay logo">
-                <img src="../Proyecto_ZeroLag/img/trasferencia_bancaria.png" alt="trasferencia bancaria logo">
+                <div class="imagenes_medios_de_pago">
+                    <img class="logo_webpay" src="../Proyecto_ZeroLag/img/webpaylogo.png" alt="webpay logo">
+                    <img class="logo_mercado_libre" src="../Proyecto_ZeroLag/img/mercadopagologo.png" alt="mercado pago logo">
+                    <img class="logo_santander" src="../Proyecto_ZeroLag/img/santanderlogo.png" alt="santander logo">
+                    <img class="logo_bancoestado" src="../Proyecto_ZeroLag/img/bancoestadologo.png" alt="bancoestado logo">
+                    <img class="logo_fpay" src="../Proyecto_ZeroLag/img/fpaylogo.png" alt="fpay logo">
+                    <img class="logo_transferencia_bancaria" src="../Proyecto_ZeroLag/img/trasferencia_bancaria.png" alt="trasferencia bancaria logo">
+                </div>
             </div>
             <div class="Redes_Sociales">
                 <h3>Siguenos en:</h3>
@@ -205,7 +215,8 @@
             </div>
         </div>
         <div class="Derechos_De_Autor">
-            <p>© 2022-2023 | ZeroLag Todos los derechos reservados | Desarrollado con 💚 y mucho esfuerzo por YoniiDev</p>
+            <p>© 2022-2023 | ZeroLag Todos los derechos reservados | Desarrollado con 💚 y mucho esfuerzo por YoniiDev
+            </p>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
