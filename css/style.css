@@ -980,7 +980,7 @@ color:black;
     font-weight: 600;
 } 
 
-/*!-----MEDIA QUERIE INDEX-----*/
+/*!-----MEDIA QUERY INDEX-----*/
 @media screen and (max-width:1100px){
     .Navbar_Contenedor ul li {
         background-color: black;
@@ -1149,8 +1149,18 @@ color:black;
         font-size: 20px;
     }
 
+    .conoce_nuestros_servicios_contenedor div img{
+        width:250px;
+        height: 141px;
+    }
+
+    .conoce_nuestros_servicios_contenedor div{
+        width:254px;
+        height: 220px;
+    }
+
     .conoce_nuestros_servicios_contenedor h3{
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .conoce_nuestros_servicios_contenedor div a{
@@ -1160,6 +1170,7 @@ color:black;
     .conoce_nuestros_servicios_contenedor div a:hover{
         font-size: 10px;
     } 
+}
 
 @media screen and (max-width:530px){
     .Footer_Contenedor{
@@ -1184,9 +1195,9 @@ color:black;
         justify-content: center;
     }
 }
-}
 
-/*!-----MEDIA QUERIE NOSOTROS-----*/
+
+/*!-----MEDIA QUERY NOSOTROS-----*/
 @media screen and (max-width:1100px){
     .Quienes_Somos{
         padding: 10px 20px 10px 20px;;
@@ -1341,7 +1352,7 @@ color:black;
     }
 }
 
-/*!-----MEDIA QUERIE PRODUCTOS-----*/
+/*!-----MEDIA QUERY PRODUCTOS-----*/
 @media screen and (max-width:1100px){
     .Productos{
         padding: 10px 20px 10px 20px;
@@ -1370,7 +1381,7 @@ color:black;
     }
 }
 
-/*!-----!MEDIA QUERIES SERVICIOS-----*/
+/*!-----!MEDIA QUERY SERVICIOS-----*/
 @media screen and (max-width:1100px){
     .Servicios{
     padding: 10px 20px 10px 20px;
@@ -1413,7 +1424,7 @@ color:black;
     }
 }
 
-/*!-----MEDIA QUERIE CONTACTO-----*/
+/*!-----MEDIA QUERY CONTACTO-----*/
 @media screen and (max-width:1100px){
     .Formulario{
         padding: 10px 0px 0px 0px;
