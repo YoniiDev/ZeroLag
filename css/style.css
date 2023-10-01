@@ -19,7 +19,7 @@ header{
     background-color: #0f0f0f;
 }
 .navbar{
-    padding: 0;
+    padding: 0px 0px 10px 0px;
     line-height:normal;
 }
 
@@ -80,21 +80,25 @@ header{
     font-weight: 600;
 }
 
+.Navbar_Contenedor ul{
+    padding: 0;
+}
+
 .Navbar_Contenedor ul li a{
+    text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     font-size: 16px;
     font-weight: 600;
-    padding: 0;
-}
-
-.Navbar_Contenedor ul li{
+    padding: 0px 60px 0px 60px;
     background-color: black;
     border: solid 2px red;
-    padding: 0px 55px 0px 55px;
-    border-radius: 10px;
+    border-radius: 10px;  
+    text-align: center;
 }
+
 /*!----------MAIN----------*/
+
 
 .ofertas_imperdibles h2{
     text-align: center;
@@ -856,9 +860,6 @@ color:black;
     color: black;
     font-size: 16px;
     font-weight: 600;
-}
-
-.li_Inicio:hover{
     background-color: rgb(0, 194, 0);
     border: 2px solid rgb(7, 80, 0);
 }
@@ -868,9 +869,6 @@ color:black;
     color: black;
     font-size: 16px;
     font-weight: 600;
-}
-
-.li_Nosotros:hover{
     background-color: rgb(0, 194, 0);
     border: 2px solid rgb(7, 80, 0);
 }
@@ -880,9 +878,6 @@ color:black;
     color: black;
     font-size: 16px;
     font-weight: 600;
-}
-
-.li_Productos:hover{
     background-color: rgb(0, 194, 0);
     border: 2px solid rgb(7, 80, 0);
 }
@@ -892,9 +887,6 @@ color:black;
     color: black;
     font-size: 16px;
     font-weight: 600;
-}
-
-.li_Servicios:hover{
     background-color: rgb(0, 194, 0);
     border: 2px solid rgb(7, 80, 0);
 }
@@ -904,9 +896,6 @@ color:black;
     color: black;
     font-size: 16px;
     font-weight: 600;
-}
-
-.li_Contacto:hover{
     background-color: rgb(0, 194, 0);
     border: 2px solid rgb(7, 80, 0);
 }
@@ -916,9 +905,6 @@ color:black;
     color: black;
     font-size: 16px;
     font-weight: 600;
-}
-
-.li_Experiencia:hover{
     background-color: rgb(0, 194, 0);
     border: 2px solid rgb(7, 80, 0);
 }
@@ -982,12 +968,8 @@ color:black;
 
 /*!-----MEDIA QUERY INDEX-----*/
 @media screen and (max-width:1100px){
-    .Navbar_Contenedor ul li {
-        background-color: black;
-        border: solid 2px red;
+    .Navbar_Contenedor ul li a{
         padding: 0px 30px 0px 30px;
-        border-radius: 10px;
-        text-align: center;
     }
 
     .Header_Contenedor{
@@ -1028,6 +1010,12 @@ color:black;
 
 .boton_navbar_y_logo_navbar_contenedor{
     width: 100%;
+    }
+
+    .Navbar_Contenedor ul li a{
+        display: block;
+        width: 100%;
+        padding: 0;
     }
 }
 
@@ -1109,7 +1097,7 @@ color:black;
         font-size: 12px;
     }
 
-    .Navbar_Contenedor:hover ul li a{
+    .Navbar_Contenedor ul li a:hover{
         font-size: 12px;
     }
 
