@@ -122,22 +122,77 @@ header{
     height: 250px;
 }
 
-.productos_ofertas_imperdibles div{
+.tarjetas_de_producto_ofertas_imperdibles{
     width: 254px;
-    height: 350px;
+    height: 100%;
     border: 2px solid red;
     box-shadow: 0px 0px 5px 3px black;
     margin: 10px;
     text-align: center;
     background-color:#0f0f0f;
+    padding-bottom: 15px;
+    line-height: 1.2;
 }
 
 .productos_ofertas_imperdibles div h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 14px;
+    font-weight:600;
+    color: white;
+    margin: 5px 0px 0px 0px;
+}
+
+.ofertas_imperdibles_descripcion_producto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
     font-weight:100;
     color: white;
-    margin: 10px;
+    margin: 5px 0px 0px 0px;
+    text-align: left;
+}
+
+.ofertas_imperdibles_precio_normal_y_porcentaje_de_descuento_contenedor{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0px 0px 0px;
+}
+
+.ofertas_imperdibles_porcentaje_de_descuento{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight:600;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 0;
+}
+
+.ofertas_imperdibles_precio_normal{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    color: white;
+    margin: 0;
+}
+
+.ofertas_imperdibles_precio_producto_con_transferencia{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    font-weight:600;
+    color:rgb(0, 194, 0);
+    margin: 5px 0px 10px 0px;
+    text-align: left;
+    margin: 5px 0px 0px 0px;
+}
+
+.ofertas_imperdibles_precio_producto_otros_medios_de_pago{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight:100;
+    color:white;
+    margin: 5px 0px 15px 0px;
+    text-align: left;
 }
 
 .productos_ofertas_imperdibles div a{
@@ -146,6 +201,7 @@ header{
     background-color: black;
     padding: 5px;
     border: solid 2px red;
+    border-radius: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     font-weight:600;
@@ -173,22 +229,77 @@ header{
     height: 250px;
 }
 
-.productos_te_puede_interesar div{
+.tarjetas_de_producto_te_puede_interesar{
     width: 254px;
-    height: 350px;
+    height: 100%;
+    padding-bottom: 15px;
     border: 2px solid red;
     box-shadow: 0px 0px 5px 3px black;
     margin: 10px;
     text-align: center;
     background-color: #0f0f0f;
+    line-height: 1.2;
 }
 
 .productos_te_puede_interesar div h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    font-weight:100;
+    font-size: 14px;
+    font-weight:600;
     color: white;
     margin: 10px;
+}
+
+.te_puede_interesar_descripcion_producto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight:100;
+    color: white;
+    margin: 5px 0px 0px 0px;
+    text-align: left;
+}
+
+.te_puede_interesar_precio_normal_y_porcentaje_de_descuento_contenedor{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0px 0px 0px;
+}
+
+.te_puede_interesar_porcentaje_de_descuento{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight:600;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 0;
+}
+
+.te_puede_interesar_precio_normal{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    color: white;
+    margin: 0;
+}
+
+.te_puede_interesar_precio_producto_con_transferencia{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    font-weight:600;
+    color:rgb(0, 194, 0);
+    margin: 5px 0px 10px 0px;
+    text-align: left;
+    margin: 5px 0px 0px 0px;
+}
+
+.te_puede_interesar_precio_producto_otros_medios_de_pago{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight:100;
+    color:white;
+    margin: 5px 0px 15px 0px;
+    text-align: left;
 }
 
 .productos_te_puede_interesar div a{
@@ -200,6 +311,7 @@ header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     font-weight:600;
+    border-radius: 10px;
 }
 
 .conoce_nuestros_servicios h2{
@@ -226,7 +338,7 @@ header{
 
 .conoce_nuestros_servicios_contenedor div{
     width: 334px;
-    height: 450px;
+    height: 430px;
     border: 2px solid red;
     box-shadow: 0px 0px 5px 3px black;
     margin: 10px;
@@ -251,6 +363,7 @@ header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     font-weight:600;
+    border-radius: 10px;
 }
 
 /*!----------FOOTER----------*/
@@ -518,14 +631,16 @@ color:black;
     flex-wrap: wrap;
 }
 
-.Productos_Contenedor div{
+.tarjetas_de_productos_productos{
     width: 254px;
-    height: 350px;
+    height: 100%;
     border: 2px solid red;
     box-shadow: 0px 0px 5px 3px black;
-    text-align: center;
     margin: 10px;
+    text-align: center;
     background-color:#0f0f0f;
+    padding-bottom: 15px;
+    line-height: 1.2;
 }
 
 .Productos_Contenedor div img{
@@ -535,10 +650,63 @@ color:black;
 
 .Productos_Contenedor div h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 10px;
+    font-size: 14px;
+    font-weight:600;
     color: white;
-    font-size: 20px;
+    margin: 10px;
+}
+
+.productos_descripcion_producto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
     font-weight:100;
+    color: white;
+    margin: 5px 0px 0px 0px;
+    text-align: left;
+}
+
+.productos_precio_normal_y_porcentaje_de_descuento_contenedor{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0px 0px 0px;
+}
+
+.productos_porcentaje_de_descuento{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight:600;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 0;
+}
+
+.productos_precio_normal{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    color: white;
+    margin: 0;
+}
+
+.producto_precio_producto_con_transferencia{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    font-weight:600;
+    color:rgb(0, 194, 0);
+    margin: 5px 0px 10px 0px;
+    text-align: left;
+    margin: 5px 0px 0px 0px;
+}
+
+.producto_precio_producto_otros_medios_de_pago{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight:100;
+    color:white;
+    margin: 5px 0px 15px 0px;
+    text-align: left;
 }
 
 .Productos_Contenedor div a{
@@ -1106,7 +1274,27 @@ color:black;
     }
 
     .productos_ofertas_imperdibles div h3{
-        font-size: 15px;
+        font-size: 12px;
+    }
+
+    .ofertas_imperdibles_descripcion_producto{
+        font-size: 11px;
+    }
+
+    .ofertas_imperdibles_porcentaje_de_descuento{
+        font-size:11px;
+    }
+
+    .ofertas_imperdibles_precio_normal{
+        font-size: 11px;
+    }
+
+    .ofertas_imperdibles_precio_producto_con_transferencia{
+        font-size: 14px;
+    }
+
+    .ofertas_imperdibles_precio_producto_otros_medios_de_pago{
+        font-size: 11px;
     }
 
     .productos_ofertas_imperdibles div a{
@@ -1122,7 +1310,27 @@ color:black;
     }
 
     .productos_te_puede_interesar div h3{
-        font-size: 15px;
+        font-size: 12px;
+    }
+
+    .te_puede_interesar_descripcion_producto{
+        font-size: 11px;
+    }
+
+    .te_puede_interesar_porcentaje_de_descuento{
+        font-size:11px;
+    }
+
+    .te_puede_interesar_precio_normal{
+        font-size: 11px;
+    }
+
+    .te_puede_interesar_precio_producto_con_transferencia{
+        font-size: 14px;
+    }
+
+    .te_puede_interesar_precio_producto_otros_medios_de_pago{
+        font-size: 11px;
     }
 
     .productos_te_puede_interesar div a {
@@ -1357,7 +1565,27 @@ color:black;
     }
 
     .Productos_Contenedor div h3{
-        font-size: 15px;
+        font-size: 12px;
+    }
+
+    .productos_descripcion_producto{
+        font-size: 11px;
+    }
+
+    .productos_porcentaje_de_descuento{
+        font-size: 11px;
+    }
+
+    .productos_precio_normal{
+        font-size: 11px;
+    }
+
+    .producto_precio_producto_con_transferencia{
+        font-size: 14px;
+    }
+
+    .producto_precio_producto_otros_medios_de_pago{
+        font-size: 11px;
     }
 
     .Productos_Contenedor div a{
