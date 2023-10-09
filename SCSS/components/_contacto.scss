@@ -1,0 +1,239 @@
+.Formulario {
+    h2 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 55px;
+        font-weight: 900;
+        margin: 5px 20px 5px 20px;
+        text-shadow: -2px -2px 3px red;
+        color: black;
+
+    }
+
+    .Formulario_Contenedor {
+        display: flex;
+        justify-content: center;
+
+        form {
+            box-shadow: 0px 0px 5px 3px black;
+            border: 2px solid red;
+            width: 70%;
+            background-color: #0f0f0f;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+
+            .Nombre {
+                display: flex;
+                flex-direction: column;
+
+                label {
+                    margin: 5px 20px 5px 20px;
+                    color: white;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+                }
+
+                input {
+                    border: 2px solid red;
+                    margin: 5px 20px 5px 20px;
+                    width: 40%;
+                }
+            }
+
+            .Apellido {
+                display: flex;
+                flex-direction: column;
+
+                label {
+                    margin: 5px 20px 5px 20px;
+                    color: white;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+
+                input {
+                    border: 2px solid red;
+                    margin: 5px 20px 5px 20px;
+                    width: 40%;
+                }
+            }
+
+            .Correo {
+                display: flex;
+                flex-direction: column;
+
+                label {
+                    margin: 5px 20px 5px 20px;
+                    color: white;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+
+                input {
+                    border: 2px solid red;
+                    margin: 5px 20px 5px 20px;
+                    width: 40%;
+                }
+            }
+
+            .Contraseña {
+                display: flex;
+                flex-direction: column;
+
+                label {
+                    margin: 5px 20px 5px 20px;
+                    color: white;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+
+                input {
+                    border: 2px solid red;
+                    margin: 5px 20px 5px 20px;
+                    width: 40%;
+                }
+            }
+
+            .Genero {
+                label {
+                    margin: 5px 20px 5px 20px;
+                    color: white;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+
+                div {
+                    label {}
+
+                    input {
+                        margin: 5px 0px 5px 0px;
+                    }
+                }
+            }
+
+            .Pais {
+                display: flex;
+                flex-direction: column;
+
+                label {
+                    margin: 5px 20px 5px 20px;
+                    color: white;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+
+                select {
+                    border: 2px solid red;
+                    margin: 5px 20px 5px 20px;
+                    width: 40%;
+
+                    option {}
+                }
+            }
+
+            .Motivo {
+                display: flex;
+                flex-direction: column;
+
+                label {
+                    margin: 5px 20px 5px 20px;
+                    color: white;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+
+                select {
+                    border: 2px solid red;
+                    margin: 5px 20px 5px 20px;
+                    width: 40%;
+
+                    option {}
+                }
+            }
+
+            .Mensaje {
+                display: flex;
+                flex-direction: column;
+
+                label {
+                    margin: 5px 20px 5px 20px;
+                    color: white;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+
+                textarea {
+                    margin: 5px 20px 5px 20px;
+                    border: 2px solid red;
+                }
+            }
+
+            .EnviarRestablecer {
+                display: flex;
+                justify-content: space-evenly;
+                margin-top: 10px;
+                align-items: end;
+
+                input {
+                    border: 2px solid red;
+                    border-radius: 10px;
+                    padding: 5px 5px 5px 5px;
+                    background-color: black;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-weight: 900;
+                    color: white;
+
+                    &:hover {
+                        background-color: rgb(0, 194, 0);
+                        border: 2px solid rgb(7, 80, 0);
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        color: black;
+                        font-size: 16px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.Informacion_Contacto {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    iframe {
+        box-shadow: 0px 0px 5px 2px black;
+        border-radius: 10px;
+    }
+
+    .Contacto_Contenedor {
+        h2 {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 30px;
+            font-weight: 900;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            color: black;
+        }
+
+        p {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 18px;
+            color: black;
+        }
+
+        h2 {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 30px;
+            font-weight: 900;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            color: black;
+        }
+
+        p {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 18px;
+            color: black;
+        }
+    }
+}

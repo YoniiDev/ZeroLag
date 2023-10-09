@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2? family= Black+Ops+One & family= Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600; 0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900 & familia = Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0 ,700;0,800;0,900; 1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900 & display=swap');
+
+//-----RESET-----
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//-----BODY-----
+body {
+    font-family: 'Black Ops One', cursiva;
+    font-family: 'Exo 2', sans-serif;
+}
+
+//-----HEADER BOOTSTRAP-----
+header {
+    background-color: #0f0f0f;
+
+    .navbar {
+        padding: 0px 0px 10px 0px;
+        line-height: normal;
+
+        .Header_Navbar_Contenedor {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-left: 20px;
+            margin-right: 20px;
+
+            .Header_Contenedor {
+                display: flex;
+
+                .boton_navbar_y_logo_navbar_contenedor {
+                    .boton_navbar {
+                        background-color: red;
+                        margin: 0px 10px 0px 0px;
+
+                        span {}
+                    }
+
+                    .logo_navbar {
+                        margin: 0;
+                        padding: 0;
+                        font-family: 'Courier New', Courier, monospace;
+                        font-size: 60px;
+                        font-weight: 900;
+                        color: red;
+
+                        &:hover {
+                            color: red;
+                            text-shadow: -2px -2px 3px red;
+                        }
+
+                        span {
+                            color: white;
+                        }
+                    }
+                }
+
+                .barra_de_busqueda {
+                    margin: 0;
+                    padding: 0;
+                    margin-left: 15px;
+
+                    .Input_Buscar {
+                        border: solid 2px red;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        margin: 0;
+                        padding: 5px;
+
+                        &:hover {
+                            border: 3px solid rgb(0, 194, 0)
+                        }
+                    }
+
+                    .Boton_Buscar {
+                        padding: 6px;
+                        border-radius: 10px;
+                        border: solid 2px red;
+                        background-color: black;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        color: white;
+                        font-size: 16px;
+                        font-weight: 600;
+
+                        &:hover {
+                            border: 2px solid rgb(7, 80, 0);
+                            background-color: rgb(0, 194, 0);
+                            font-family: Verdana, Geneva, Tahoma, sans-serif;
+                            color: black;
+                            font-size: 16px;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+
+            .Navbar_Contenedor {
+                ul {
+                    padding: 0;
+
+                    .li_Inicio {
+                        .a_Inicio {
+                            text-decoration: none;
+                            font-family: Verdana, Geneva, Tahoma, sans-serif;
+                            color: white;
+                            font-size: 16px;
+                            font-weight: 600;
+                            padding: 0px 60px 0px 60px;
+                            background-color: black;
+                            border: solid 2px red;
+                            border-radius: 10px;
+                            text-align: center;
+
+                            &:hover {
+                                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                color: black;
+                                font-size: 16px;
+                                font-weight: 600;
+                                background-color: rgb(0, 194, 0);
+                                border: 2px solid rgb(7, 80, 0);
+                            }
+                        }
+                    }
+
+                    .li_Nosotros {
+                        .a_Nosotros {
+                            text-decoration: none;
+                            font-family: Verdana, Geneva, Tahoma, sans-serif;
+                            color: white;
+                            font-size: 16px;
+                            font-weight: 600;
+                            padding: 0px 60px 0px 60px;
+                            background-color: black;
+                            border: solid 2px red;
+                            border-radius: 10px;
+                            text-align: center;
+
+                            &:hover {
+                                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                color: black;
+                                font-size: 16px;
+                                font-weight: 600;
+                                background-color: rgb(0, 194, 0);
+                                border: 2px solid rgb(7, 80, 0);
+                            }
+                        }
+                    }
+
+                    .li_Productos {
+                        .a_Productos {
+                            text-decoration: none;
+                            font-family: Verdana, Geneva, Tahoma, sans-serif;
+                            color: white;
+                            font-size: 16px;
+                            font-weight: 600;
+                            padding: 0px 60px 0px 60px;
+                            background-color: black;
+                            border: solid 2px red;
+                            border-radius: 10px;
+                            text-align: center;
+
+                            &:hover {
+                                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                color: black;
+                                font-size: 16px;
+                                font-weight: 600;
+                                background-color: rgb(0, 194, 0);
+                                border: 2px solid rgb(7, 80, 0);
+                            }
+                        }
+                    }
+
+                    .li_Servicios {
+                        .a_Servicios {
+                            text-decoration: none;
+                            font-family: Verdana, Geneva, Tahoma, sans-serif;
+                            color: white;
+                            font-size: 16px;
+                            font-weight: 600;
+                            padding: 0px 60px 0px 60px;
+                            background-color: black;
+                            border: solid 2px red;
+                            border-radius: 10px;
+                            text-align: center;
+
+                            &:hover {
+                                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                color: black;
+                                font-size: 16px;
+                                font-weight: 600;
+                                background-color: rgb(0, 194, 0);
+                                border: 2px solid rgb(7, 80, 0);
+                            }
+                        }
+                    }
+
+                    .li_Contacto {
+                        .a_Contacto {
+                            text-decoration: none;
+                            font-family: Verdana, Geneva, Tahoma, sans-serif;
+                            color: white;
+                            font-size: 16px;
+                            font-weight: 600;
+                            padding: 0px 60px 0px 60px;
+                            background-color: black;
+                            border: solid 2px red;
+                            border-radius: 10px;
+                            text-align: center;
+
+                            &:hover {
+                                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                color: black;
+                                font-size: 16px;
+                                font-weight: 600;
+                                background-color: rgb(0, 194, 0);
+                                border: 2px solid rgb(7, 80, 0);
+                            }
+                        }
+                    }
+
+                    .li_Experiencia {
+                        .a_Experiencia {
+                            text-decoration: none;
+                            font-family: Verdana, Geneva, Tahoma, sans-serif;
+                            color: white;
+                            font-size: 16px;
+                            font-weight: 600;
+                            padding: 0px 60px 0px 60px;
+                            background-color: black;
+                            border: solid 2px red;
+                            border-radius: 10px;
+                            text-align: center;
+
+                            &:hover {
+                                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                color: black;
+                                font-size: 16px;
+                                font-weight: 600;
+                                background-color: rgb(0, 194, 0);
+                                border: 2px solid rgb(7, 80, 0);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//NOTA PARA EL EVALUADOR: tube que agregar clases a cada <a>, por el hover, ya que al aplicar el hover al <a> unicamente, es decir, sin clases, al momento de aplicarle el hover se pintabán todas las <a> al mismo tiempo, entonces tuve que aumentar la especificidad en este caso.

@@ -1,0 +1,305 @@
+.ofertas_imperdibles {
+    h2 {
+        text-align: center;
+        background-color: black;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        font-weight: 600;
+        border: solid 2px red;
+        margin: 0;
+    }
+
+    .productos_ofertas_imperdibles {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        .tarjetas_de_producto_ofertas_imperdibles {
+            width: 254px;
+            height: 100%;
+            border: 2px solid red;
+            box-shadow: 0px 0px 5px 3px black;
+            margin: 10px;
+            text-align: center;
+            background-color: #0f0f0f;
+            padding-bottom: 15px;
+            line-height: 1.2;
+
+            img {
+                width: 250px;
+                height: 250px;
+            }
+
+            h3 {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 14px;
+                font-weight: 600;
+                color: white;
+                margin: 5px 0px 0px 0px;
+            }
+
+            .ofertas_imperdibles_descripcion_producto {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 14px;
+                font-weight: 100;
+                color: white;
+                margin: 5px 0px 0px 0px;
+                text-align: left;
+            }
+
+            .ofertas_imperdibles_precio_normal_y_porcentaje_de_descuento_contenedor {
+                display: flex;
+                justify-content: space-around;
+                margin: 5px 0px 0px 0px;
+
+                .ofertas_imperdibles_porcentaje_de_descuento {
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 12px;
+                    font-weight: 600;
+                    background-color: red;
+                    color: white;
+                    border-radius: 10px;
+                    padding: 2px;
+                    margin: 0;
+                }
+
+                .ofertas_imperdibles_precio_normal {
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 12px;
+                    font-weight: 100;
+                    color: white;
+                    margin: 0;
+                }
+            }
+
+            .ofertas_imperdibles_precio_producto_con_transferencia {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 17px;
+                font-weight: 600;
+                color: rgb(0, 194, 0);
+                margin: 5px 0px 10px 0px;
+                text-align: left;
+                margin: 5px 0px 0px 0px;
+            }
+
+            .ofertas_imperdibles_precio_producto_otros_medios_de_pago {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 12px;
+                font-weight: 100;
+                color: white;
+                margin: 5px 0px 15px 0px;
+                text-align: left;
+            }
+
+            a {
+                text-decoration: none;
+                color: white;
+                background-color: black;
+                padding: 5px;
+                border: solid 2px red;
+                border-radius: 10px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+
+                &:hover {
+                    background-color: rgb(0, 194, 0);
+                    border: 2px solid rgb(7, 80, 0);
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    color: black;
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+.te_puede_interesar {
+    h2 {
+        text-align: center;
+        background-color: black;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        font-weight: 600;
+        border: solid 2px red;
+        margin: 0;
+
+    }
+
+    .productos_te_puede_interesar {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        .tarjetas_de_producto_te_puede_interesar {
+            width: 254px;
+            height: 100%;
+            padding-bottom: 15px;
+            border: 2px solid red;
+            box-shadow: 0px 0px 5px 3px black;
+            margin: 10px;
+            text-align: center;
+            background-color: #0f0f0f;
+            line-height: 1.2;
+
+            img {
+                width: 250px;
+                height: 250px;
+            }
+
+            h3 {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 14px;
+                font-weight: 600;
+                color: white;
+                margin: 10px;
+            }
+
+            .te_puede_interesar_descripcion_producto {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 14px;
+                font-weight: 100;
+                color: white;
+                margin: 5px 0px 0px 0px;
+                text-align: left;
+            }
+
+            .te_puede_interesar_precio_normal_y_porcentaje_de_descuento_contenedor {
+                display: flex;
+                justify-content: space-around;
+                margin: 5px 0px 0px 0px;
+
+                .te_puede_interesar_porcentaje_de_descuento {
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 12px;
+                    font-weight: 600;
+                    background-color: red;
+                    color: white;
+                    border-radius: 10px;
+                    padding: 2px;
+                    margin: 0;
+
+                }
+
+                .te_puede_interesar_precio_normal {
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 12px;
+                    font-weight: 100;
+                    color: white;
+                    margin: 0;
+                }
+            }
+
+            .te_puede_interesar_precio_producto_con_transferencia {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 17px;
+                font-weight: 600;
+                color: rgb(0, 194, 0);
+                margin: 5px 0px 10px 0px;
+                text-align: left;
+                margin: 5px 0px 0px 0px;
+            }
+
+            .te_puede_interesar_precio_producto_otros_medios_de_pago {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 12px;
+                font-weight: 100;
+                color: white;
+                margin: 5px 0px 15px 0px;
+                text-align: left;
+            }
+
+            a {
+                text-decoration: none;
+                color: white;
+                background-color: black;
+                padding: 5px;
+                border: solid 2px red;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                border-radius: 10px;
+
+                &:hover {
+                    background-color: rgb(0, 194, 0);
+                    border: 2px solid rgb(7, 80, 0);
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    color: black;
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+.conoce_nuestros_servicios {
+    h2 {
+        text-align: center;
+        background-color: black;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        font-weight: 600;
+        border: solid 2px red;
+        margin: 0;
+
+    }
+
+    .conoce_nuestros_servicios_contenedor {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        div {
+            width: 334px;
+            height: 430px;
+            border: 2px solid red;
+            box-shadow: 0px 0px 5px 3px black;
+            margin: 10px;
+            text-align: center;
+            background-color: #0f0f0f;
+
+            img {
+                width: 330px;
+                height: 350px;
+            }
+
+            h3 {
+                margin: 10px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: white;
+                font-size: 16px;
+                font-weight: 600;
+            }
+
+            a {
+                text-decoration: none;
+                color: white;
+                background-color: black;
+                padding: 5px;
+                border: solid 2px red;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                border-radius: 10px;
+
+                &:hover {
+                    background-color: rgb(0, 194, 0);
+                    border: 2px solid rgb(7, 80, 0);
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    color: black;
+                    font-size: 16px;
+                    font-weight: 600;
+
+                }
+            }
+
+        }
+
+    }
+}
+
