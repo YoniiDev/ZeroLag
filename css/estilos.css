@@ -1,5 +1,9 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2? family= Black+Ops+One & family= Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600; 0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900 & familia = Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0 ,700;0,800;0,900; 1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900 & display=swap");
+.Quienes_Somos .Quienes_Somos_Contenedor, .Nuestra_Mision .Nuestra_Mision_Contenedor, .Lo_Que_Nos_Diferencia .Lo_Que_Nos_Diferencia_Contenedor {
+  display: flex;
+  justify-content: space-between; }
+
 * {
   margin: 0;
   padding: 0;
@@ -417,8 +421,6 @@ header {
   text-shadow: -2px -2px 3px red; }
 
 .Quienes_Somos .Quienes_Somos_Contenedor {
-  display: flex;
-  justify-content: space-between;
   align-items: start;
   flex-wrap: nowrap; }
   .Quienes_Somos .Quienes_Somos_Contenedor div p {
@@ -445,23 +447,21 @@ header {
   text-shadow: -2px -2px 3px red;
   color: black; }
 
-.Nuestra_Mision .Nuestra_Mision_Contenedor {
-  display: flex;
-  justify-content: space-between; }
-  .Nuestra_Mision .Nuestra_Mision_Contenedor div p {
-    text-align: justify;
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 0;
-    width: 90%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    color: black; }
-  .Nuestra_Mision .Nuestra_Mision_Contenedor img {
-    width: 468px;
-    height: 268px;
-    margin-right: 20px;
-    box-shadow: 0px 0px 5px 3px black; }
+.Nuestra_Mision .Nuestra_Mision_Contenedor div p {
+  text-align: justify;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  width: 90%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: black; }
+
+.Nuestra_Mision .Nuestra_Mision_Contenedor img {
+  width: 468px;
+  height: 268px;
+  margin-right: 20px;
+  box-shadow: 0px 0px 5px 3px black; }
 
 .Lo_Que_Nos_Diferencia h2 {
   font-family: 'Courier New', Courier, monospace;
@@ -471,23 +471,21 @@ header {
   margin: 5px 20px 5px 20px;
   text-shadow: -2px -2px 3px red; }
 
-.Lo_Que_Nos_Diferencia .Lo_Que_Nos_Diferencia_Contenedor {
-  display: flex;
-  justify-content: space-between; }
-  .Lo_Que_Nos_Diferencia .Lo_Que_Nos_Diferencia_Contenedor div p {
-    text-align: justify;
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 0;
-    width: 90%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
-    font-size: 20px; }
-  .Lo_Que_Nos_Diferencia .Lo_Que_Nos_Diferencia_Contenedor img {
-    width: 468px;
-    height: 268px;
-    margin-right: 20px;
-    box-shadow: 0px 0px 5px 3px black; }
+.Lo_Que_Nos_Diferencia .Lo_Que_Nos_Diferencia_Contenedor div p {
+  text-align: justify;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  width: 90%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  font-size: 20px; }
+
+.Lo_Que_Nos_Diferencia .Lo_Que_Nos_Diferencia_Contenedor img {
+  width: 468px;
+  height: 268px;
+  margin-right: 20px;
+  box-shadow: 0px 0px 5px 3px black; }
 
 .Nuestros_Valores h2 {
   font-family: 'Courier New', Courier, monospace;

@@ -10,8 +10,7 @@
     }
 
     .Quienes_Somos_Contenedor {
-        display: flex;
-        justify-content: space-between;
+        @extend %flex-between;
         align-items: start;
         flex-wrap: nowrap;
 
@@ -51,8 +50,7 @@
     }
 
     .Nuestra_Mision_Contenedor {
-        display: flex;
-        justify-content: space-between;
+        @extend %flex-between;
 
         div {
             p {
@@ -88,8 +86,7 @@
     }
 
     .Lo_Que_Nos_Diferencia_Contenedor {
-        display: flex;
-        justify-content: space-between;
+        @extend %flex-between;
 
         div {
             p {
