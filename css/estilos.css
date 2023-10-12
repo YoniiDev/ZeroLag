@@ -205,7 +205,8 @@ header {
     line-height: 1.2; }
     .ofertas_imperdibles .productos_ofertas_imperdibles .tarjetas_de_producto_ofertas_imperdibles img {
       width: 250px;
-      height: 250px; }
+      height: 250px;
+      object-fit: cover; }
     .ofertas_imperdibles .productos_ofertas_imperdibles .tarjetas_de_producto_ofertas_imperdibles h3 {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-size: 14px;
@@ -297,7 +298,8 @@ header {
     line-height: 1.2; }
     .te_puede_interesar .productos_te_puede_interesar .tarjetas_de_producto_te_puede_interesar img {
       width: 250px;
-      height: 250px; }
+      height: 250px;
+      object-fit: cover; }
     .te_puede_interesar .productos_te_puede_interesar .tarjetas_de_producto_te_puede_interesar h3 {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-size: 14px;
@@ -387,7 +389,8 @@ header {
     background-color: #0f0f0f; }
     .conoce_nuestros_servicios .conoce_nuestros_servicios_contenedor div img {
       width: 330px;
-      height: 350px; }
+      height: 350px;
+      object-fit: cover; }
     .conoce_nuestros_servicios .conoce_nuestros_servicios_contenedor div h3 {
       margin: 10px;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -437,7 +440,8 @@ header {
     height: 200px;
     margin-right: 20px;
     box-shadow: 0px 0px 5px 3px black;
-    color: black; }
+    color: black;
+    object-fit: cover; }
 
 .Nuestra_Mision h2 {
   font-family: 'Courier New', Courier, monospace;
@@ -461,7 +465,8 @@ header {
   width: 468px;
   height: 268px;
   margin-right: 20px;
-  box-shadow: 0px 0px 5px 3px black; }
+  box-shadow: 0px 0px 5px 3px black;
+  object-fit: cover; }
 
 .Lo_Que_Nos_Diferencia h2 {
   font-family: 'Courier New', Courier, monospace;
@@ -513,7 +518,8 @@ header {
       width: 350px;
       height: 250px;
       border-top-right-radius: 10px;
-      border-top-left-radius: 10px; }
+      border-top-left-radius: 10px;
+      object-fit: cover; }
     .Nuestros_Valores .Nuestros_Valores_Contenedor div h3 {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-size: 20px;
@@ -565,7 +571,8 @@ header {
     line-height: 1.2; }
     .Productos .Productos_Contenedor .tarjetas_de_productos_productos img {
       width: 250px;
-      height: 250px; }
+      height: 250px;
+      object-fit: cover; }
     .Productos .Productos_Contenedor .tarjetas_de_productos_productos h3 {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-size: 14px;
@@ -652,7 +659,8 @@ header {
     background-color: #0f0f0f; }
     .Servicios .Servicios_Contenedor div img {
       width: 496px;
-      height: 350px; }
+      height: 350px;
+      object-fit: cover; }
     .Servicios .Servicios_Contenedor div h3 {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       text-align: left;
