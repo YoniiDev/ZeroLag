@@ -46,6 +46,7 @@ header {
                         font-size: 60px;
                         font-weight: 900;
                         color: red;
+                        transition-duration: 0.5s;
 
                         &:hover {
                             color: red;
@@ -68,6 +69,7 @@ header {
                         font-family: Verdana, Geneva, Tahoma, sans-serif;
                         margin: 0;
                         padding: 5px;
+                        transition-duration: 0.5s;
 
                         &:hover {
                             border: 3px solid rgb(0, 194, 0)
@@ -83,6 +85,7 @@ header {
                         color: white;
                         font-size: 16px;
                         font-weight: 600;
+                        transition-duration: 0.5s;
 
                         &:hover {
                             border: 2px solid rgb(7, 80, 0);
@@ -112,6 +115,7 @@ header {
                             border: solid 2px red;
                             border-radius: 10px;
                             text-align: center;
+                            transition-duration: 0.5s;
 
                             &:hover {
                                 font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -136,6 +140,7 @@ header {
                             border: solid 2px red;
                             border-radius: 10px;
                             text-align: center;
+                            transition-duration: 0.5s;
 
                             &:hover {
                                 font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -160,6 +165,7 @@ header {
                             border: solid 2px red;
                             border-radius: 10px;
                             text-align: center;
+                            transition-duration: 0.5s;
 
                             &:hover {
                                 font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -184,6 +190,7 @@ header {
                             border: solid 2px red;
                             border-radius: 10px;
                             text-align: center;
+                            transition-duration: 0.5s;
 
                             &:hover {
                                 font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -208,6 +215,7 @@ header {
                             border: solid 2px red;
                             border-radius: 10px;
                             text-align: center;
+                            transition-duration: 0.5s;
 
                             &:hover {
                                 font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -232,6 +240,7 @@ header {
                             border: solid 2px red;
                             border-radius: 10px;
                             text-align: center;
+                            transition-duration: 0.5s;
 
                             &:hover {
                                 font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -249,4 +258,4 @@ header {
     }
 }
 
-//NOTA PARA EL EVALUADOR: tube que agregar clases a cada <a>, por el hover, ya que al aplicar el hover al <a> unicamente, es decir, sin clases, al momento de aplicarle el hover se pintabán todas las <a> al mismo tiempo, entonces tuve que aumentar la especificidad en este caso.
+//NOTA PARA EL EVALUADOR: tube que agregar clases a cada etiqueta <a>, por el hover, ya que al aplicar el hover a la etiqueta <a> unicamente, es decir, sin ninguna clase, al momento de que el usuario se posicionaba en cualquier enlace de la barra de navegación, se pintabán todas las etiquetas <a> al mismo tiempo, entonces tuve que aumentar la especificidad en este caso.
