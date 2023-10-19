@@ -56,6 +56,8 @@
                 color: white;
                 margin: 5px 0px 0px 0px;
                 text-align: left;
+                padding-right: 5px;
+                padding-left: 5px;
             }
 
             .productos_precio_normal_y_porcentaje_de_descuento_contenedor {
@@ -85,12 +87,14 @@
 
             .producto_precio_producto_con_transferencia {
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
-                font-size: 17px;
+                font-size: 16px;
                 font-weight: 600;
                 color: rgb(0, 194, 0);
                 margin: 5px 0px 10px 0px;
                 text-align: left;
                 margin: 5px 0px 0px 0px;
+                padding-right: 5px;
+                padding-left: 5px;
             }
 
             .producto_precio_producto_otros_medios_de_pago {
@@ -100,6 +104,8 @@
                 color: white;
                 margin: 5px 0px 15px 0px;
                 text-align: left;
+                padding-right: 5px;
+                padding-left: 5px;
             }
 
             a {

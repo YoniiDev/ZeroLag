@@ -56,6 +56,8 @@
                 color: $color-tercero;
                 margin: 5px 0px 0px 0px;
                 text-align: left;
+                padding-right: 5px;
+                padding-left: 5px;
             }
 
             .ofertas_imperdibles_precio_normal_y_porcentaje_de_descuento_contenedor {
@@ -84,12 +86,14 @@
 
             .ofertas_imperdibles_precio_producto_con_transferencia {
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
-                font-size: 17px;
+                font-size: 16px;
                 font-weight: 600;
                 color: $color-quinto;
                 margin: 5px 0px 10px 0px;
                 text-align: left;
                 margin: 5px 0px 0px 0px;
+                padding-right: 5px;
+                padding-left: 5px;
             }
 
             .ofertas_imperdibles_precio_producto_otros_medios_de_pago {
@@ -99,6 +103,8 @@
                 color: $color-tercero;
                 margin: 5px 0px 15px 0px;
                 text-align: left;
+                padding-right: 5px;
+                padding-left: 5px;
             }
 
             a {
@@ -185,6 +191,8 @@
                 color: nth($paleta-de-colores, 3);
                 margin: 5px 0px 0px 0px;
                 text-align: left;
+                padding-right: 5px;
+                padding-left: 5px;
             }
 
             .te_puede_interesar_precio_normal_y_porcentaje_de_descuento_contenedor {
@@ -214,12 +222,14 @@
 
             .te_puede_interesar_precio_producto_con_transferencia {
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
-                font-size: 17px;
+                font-size: 16px;
                 font-weight: 600;
                 color: nth($paleta-de-colores, 5);
                 margin: 5px 0px 10px 0px;
                 text-align: left;
                 margin: 5px 0px 0px 0px;
+                padding-right: 5px;
+                padding-left: 5px;
             }
 
             .te_puede_interesar_precio_producto_otros_medios_de_pago {
@@ -229,6 +239,8 @@
                 color: nth($paleta-de-colores, 3);
                 margin: 5px 0px 15px 0px;
                 text-align: left;
+                padding-right: 5px;
+                padding-left: 5px;
             }
 
             a {

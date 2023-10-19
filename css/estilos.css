@@ -236,7 +236,9 @@ header {
       font-weight: 100;
       color: white;
       margin: 5px 0px 0px 0px;
-      text-align: left; }
+      text-align: left;
+      padding-right: 5px;
+      padding-left: 5px; }
     .ofertas_imperdibles .productos_ofertas_imperdibles .tarjetas_de_producto_ofertas_imperdibles .ofertas_imperdibles_precio_normal_y_porcentaje_de_descuento_contenedor {
       display: flex;
       justify-content: space-around;
@@ -258,19 +260,23 @@ header {
         margin: 0; }
     .ofertas_imperdibles .productos_ofertas_imperdibles .tarjetas_de_producto_ofertas_imperdibles .ofertas_imperdibles_precio_producto_con_transferencia {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
-      font-size: 17px;
+      font-size: 16px;
       font-weight: 600;
       color: #00c200;
       margin: 5px 0px 10px 0px;
       text-align: left;
-      margin: 5px 0px 0px 0px; }
+      margin: 5px 0px 0px 0px;
+      padding-right: 5px;
+      padding-left: 5px; }
     .ofertas_imperdibles .productos_ofertas_imperdibles .tarjetas_de_producto_ofertas_imperdibles .ofertas_imperdibles_precio_producto_otros_medios_de_pago {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-size: 12px;
       font-weight: 100;
       color: white;
       margin: 5px 0px 15px 0px;
-      text-align: left; }
+      text-align: left;
+      padding-right: 5px;
+      padding-left: 5px; }
     .ofertas_imperdibles .productos_ofertas_imperdibles .tarjetas_de_producto_ofertas_imperdibles a {
       text-decoration: none;
       color: white;
@@ -338,7 +344,9 @@ header {
       font-weight: 100;
       color: white;
       margin: 5px 0px 0px 0px;
-      text-align: left; }
+      text-align: left;
+      padding-right: 5px;
+      padding-left: 5px; }
     .te_puede_interesar .productos_te_puede_interesar .tarjetas_de_producto_te_puede_interesar .te_puede_interesar_precio_normal_y_porcentaje_de_descuento_contenedor {
       display: flex;
       justify-content: space-around;
@@ -360,19 +368,23 @@ header {
         margin: 0; }
     .te_puede_interesar .productos_te_puede_interesar .tarjetas_de_producto_te_puede_interesar .te_puede_interesar_precio_producto_con_transferencia {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
-      font-size: 17px;
+      font-size: 16px;
       font-weight: 600;
       color: #00c200;
       margin: 5px 0px 10px 0px;
       text-align: left;
-      margin: 5px 0px 0px 0px; }
+      margin: 5px 0px 0px 0px;
+      padding-right: 5px;
+      padding-left: 5px; }
     .te_puede_interesar .productos_te_puede_interesar .tarjetas_de_producto_te_puede_interesar .te_puede_interesar_precio_producto_otros_medios_de_pago {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-size: 12px;
       font-weight: 100;
       color: white;
       margin: 5px 0px 15px 0px;
-      text-align: left; }
+      text-align: left;
+      padding-right: 5px;
+      padding-left: 5px; }
     .te_puede_interesar .productos_te_puede_interesar .tarjetas_de_producto_te_puede_interesar a {
       text-decoration: none;
       color: white;
@@ -629,7 +641,9 @@ header {
       font-weight: 100;
       color: white;
       margin: 5px 0px 0px 0px;
-      text-align: left; }
+      text-align: left;
+      padding-right: 5px;
+      padding-left: 5px; }
     .Productos .Productos_Contenedor .tarjetas_de_productos_productos .productos_precio_normal_y_porcentaje_de_descuento_contenedor {
       display: flex;
       justify-content: space-around;
@@ -651,19 +665,23 @@ header {
         margin: 0; }
     .Productos .Productos_Contenedor .tarjetas_de_productos_productos .producto_precio_producto_con_transferencia {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
-      font-size: 17px;
+      font-size: 16px;
       font-weight: 600;
       color: #00c200;
       margin: 5px 0px 10px 0px;
       text-align: left;
-      margin: 5px 0px 0px 0px; }
+      margin: 5px 0px 0px 0px;
+      padding-right: 5px;
+      padding-left: 5px; }
     .Productos .Productos_Contenedor .tarjetas_de_productos_productos .producto_precio_producto_otros_medios_de_pago {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-size: 12px;
       font-weight: 100;
       color: white;
       margin: 5px 0px 15px 0px;
-      text-align: left; }
+      text-align: left;
+      padding-right: 5px;
+      padding-left: 5px; }
     .Productos .Productos_Contenedor .tarjetas_de_productos_productos a {
       text-decoration: none;
       color: white;
