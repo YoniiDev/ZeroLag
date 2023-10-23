@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2? family= Black+Ops+One & family= Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600; 0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900 & familia = Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0 ,700;0,800;0,900; 1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900 & display=swap");
-.Quienes_Somos .Quienes_Somos_Contenedor, .Nuestra_Mision .Nuestra_Mision_Contenedor, .Lo_Que_Nos_Diferencia .Lo_Que_Nos_Diferencia_Contenedor {
+.quienes_somos .quienes_somos_contenedor, .nuestra_mision .nuestra_mision_contenedor, .lo_que_nos_diferencia .lo_que_nos_diferencia_contenedor {
   display: flex;
   justify-content: space-between; }
 
@@ -18,18 +18,18 @@ header {
   header .navbar {
     padding: 0px 0px 10px 0px;
     line-height: normal; }
-    header .navbar .Header_Navbar_Contenedor {
+    header .navbar .header_navbar_contenedor {
       display: flex;
       flex-direction: column;
       width: 100%;
       margin-left: 20px;
       margin-right: 20px; }
-      header .navbar .Header_Navbar_Contenedor .Header_Contenedor {
+      header .navbar .header_navbar_contenedor .header_contenedor {
         display: flex; }
-        header .navbar .Header_Navbar_Contenedor .Header_Contenedor .boton_navbar_y_logo_navbar_contenedor .boton_navbar {
+        header .navbar .header_navbar_contenedor .header_contenedor .boton_navbar_y_logo_navbar_contenedor .boton_navbar {
           background-color: red;
           margin: 0px 10px 0px 0px; }
-        header .navbar .Header_Navbar_Contenedor .Header_Contenedor .boton_navbar_y_logo_navbar_contenedor .logo_navbar {
+        header .navbar .header_navbar_contenedor .header_contenedor .boton_navbar_y_logo_navbar_contenedor .logo_navbar {
           margin: 0;
           padding: 0;
           font-family: 'Courier New', Courier, monospace;
@@ -37,24 +37,24 @@ header {
           font-weight: 900;
           color: red;
           transition-duration: 0.5s; }
-          header .navbar .Header_Navbar_Contenedor .Header_Contenedor .boton_navbar_y_logo_navbar_contenedor .logo_navbar:hover {
+          header .navbar .header_navbar_contenedor .header_contenedor .boton_navbar_y_logo_navbar_contenedor .logo_navbar:hover {
             color: red;
             text-shadow: -2px -2px 3px red; }
-          header .navbar .Header_Navbar_Contenedor .Header_Contenedor .boton_navbar_y_logo_navbar_contenedor .logo_navbar span {
+          header .navbar .header_navbar_contenedor .header_contenedor .boton_navbar_y_logo_navbar_contenedor .logo_navbar span {
             color: white; }
-        header .navbar .Header_Navbar_Contenedor .Header_Contenedor .barra_de_busqueda {
+        header .navbar .header_navbar_contenedor .header_contenedor .barra_de_busqueda {
           margin: 0;
           padding: 0;
           margin-left: 15px; }
-          header .navbar .Header_Navbar_Contenedor .Header_Contenedor .barra_de_busqueda .Input_Buscar {
+          header .navbar .header_navbar_contenedor .header_contenedor .barra_de_busqueda .input_buscar {
             border: solid 2px red;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             margin: 0;
             padding: 5px;
             transition-duration: 0.5s; }
-            header .navbar .Header_Navbar_Contenedor .Header_Contenedor .barra_de_busqueda .Input_Buscar:hover {
+            header .navbar .header_navbar_contenedor .header_contenedor .barra_de_busqueda .input_buscar:hover {
               border: 3px solid #00c200; }
-          header .navbar .Header_Navbar_Contenedor .Header_Contenedor .barra_de_busqueda .Boton_Buscar {
+          header .navbar .header_navbar_contenedor .header_contenedor .barra_de_busqueda .boton_buscar {
             padding: 6px;
             border-radius: 10px;
             border: solid 2px red;
@@ -64,16 +64,16 @@ header {
             font-size: 16px;
             font-weight: 600;
             transition-duration: 0.5s; }
-            header .navbar .Header_Navbar_Contenedor .Header_Contenedor .barra_de_busqueda .Boton_Buscar:hover {
+            header .navbar .header_navbar_contenedor .header_contenedor .barra_de_busqueda .boton_buscar:hover {
               border: 2px solid #075000;
               background-color: #00c200;
               font-family: Verdana, Geneva, Tahoma, sans-serif;
               color: black;
               font-size: 16px;
               font-weight: 600; }
-      header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul {
+      header .navbar .header_navbar_contenedor .navbar_contenedor ul {
         padding: 0; }
-        header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Inicio .a_Inicio {
+        header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_inicio .a_inicio {
           text-decoration: none;
           font-family: Verdana, Geneva, Tahoma, sans-serif;
           color: white;
@@ -85,14 +85,14 @@ header {
           border-radius: 10px;
           text-align: center;
           transition-duration: 0.5s; }
-          header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Inicio .a_Inicio:hover {
+          header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_inicio .a_inicio:hover {
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             color: black;
             font-size: 16px;
             font-weight: 600;
             background-color: #00c200;
             border: 2px solid #075000; }
-        header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Nosotros .a_Nosotros {
+        header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_nosotros .a_nosotros {
           text-decoration: none;
           font-family: Verdana, Geneva, Tahoma, sans-serif;
           color: white;
@@ -104,14 +104,14 @@ header {
           border-radius: 10px;
           text-align: center;
           transition-duration: 0.5s; }
-          header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Nosotros .a_Nosotros:hover {
+          header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_nosotros .a_nosotros:hover {
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             color: black;
             font-size: 16px;
             font-weight: 600;
             background-color: #00c200;
             border: 2px solid #075000; }
-        header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Productos .a_Productos {
+        header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_productos .a_productos {
           text-decoration: none;
           font-family: Verdana, Geneva, Tahoma, sans-serif;
           color: white;
@@ -123,14 +123,14 @@ header {
           border-radius: 10px;
           text-align: center;
           transition-duration: 0.5s; }
-          header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Productos .a_Productos:hover {
+          header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_productos .a_productos:hover {
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             color: black;
             font-size: 16px;
             font-weight: 600;
             background-color: #00c200;
             border: 2px solid #075000; }
-        header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Servicios .a_Servicios {
+        header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_servicios .a_servicios {
           text-decoration: none;
           font-family: Verdana, Geneva, Tahoma, sans-serif;
           color: white;
@@ -142,14 +142,14 @@ header {
           border-radius: 10px;
           text-align: center;
           transition-duration: 0.5s; }
-          header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Servicios .a_Servicios:hover {
+          header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_servicios .a_servicios:hover {
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             color: black;
             font-size: 16px;
             font-weight: 600;
             background-color: #00c200;
             border: 2px solid #075000; }
-        header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Contacto .a_Contacto {
+        header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_contacto .a_contacto {
           text-decoration: none;
           font-family: Verdana, Geneva, Tahoma, sans-serif;
           color: white;
@@ -161,14 +161,14 @@ header {
           border-radius: 10px;
           text-align: center;
           transition-duration: 0.5s; }
-          header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Contacto .a_Contacto:hover {
+          header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_contacto .a_contacto:hover {
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             color: black;
             font-size: 16px;
             font-weight: 600;
             background-color: #00c200;
             border: 2px solid #075000; }
-        header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Experiencia .a_Experiencia {
+        header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_experiencia .a_experiencia {
           text-decoration: none;
           font-family: Verdana, Geneva, Tahoma, sans-serif;
           color: white;
@@ -180,7 +180,7 @@ header {
           border-radius: 10px;
           text-align: center;
           transition-duration: 0.5s; }
-          header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Experiencia .a_Experiencia:hover {
+          header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_experiencia .a_experiencia:hover {
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             color: black;
             font-size: 16px;
@@ -463,7 +463,7 @@ header {
         font-size: 16px;
         font-weight: 600; }
 
-.Quienes_Somos h2 {
+.quienes_somos h2 {
   font-family: 'Courier New', Courier, monospace;
   color: black;
   font-size: 55px;
@@ -471,10 +471,10 @@ header {
   margin: 5px 20px 5px 20px;
   text-shadow: -2px -2px 3px red; }
 
-.Quienes_Somos .Quienes_Somos_Contenedor {
+.quienes_somos .quienes_somos_contenedor {
   align-items: start;
   flex-wrap: nowrap; }
-  .Quienes_Somos .Quienes_Somos_Contenedor div p {
+  .quienes_somos .quienes_somos_contenedor div p {
     text-align: justify;
     margin-left: 20px;
     margin-top: 10px;
@@ -483,7 +483,7 @@ header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     color: black; }
-  .Quienes_Somos .Quienes_Somos_Contenedor img {
+  .quienes_somos .quienes_somos_contenedor img {
     width: 400px;
     height: 200px;
     margin-right: 20px;
@@ -491,7 +491,7 @@ header {
     color: black;
     object-fit: cover; }
 
-.Nuestra_Mision h2 {
+.nuestra_mision h2 {
   font-family: 'Courier New', Courier, monospace;
   font-size: 55px;
   font-weight: 900;
@@ -499,7 +499,7 @@ header {
   text-shadow: -2px -2px 3px red;
   color: black; }
 
-.Nuestra_Mision .Nuestra_Mision_Contenedor div p {
+.nuestra_mision .nuestra_mision_contenedor div p {
   text-align: justify;
   margin-left: 20px;
   margin-top: 10px;
@@ -509,14 +509,14 @@ header {
   font-size: 20px;
   color: black; }
 
-.Nuestra_Mision .Nuestra_Mision_Contenedor img {
+.nuestra_mision .nuestra_mision_contenedor img {
   width: 468px;
   height: 268px;
   margin-right: 20px;
   box-shadow: 0px 0px 5px 3px black;
   object-fit: cover; }
 
-.Lo_Que_Nos_Diferencia h2 {
+.lo_que_nos_diferencia h2 {
   font-family: 'Courier New', Courier, monospace;
   font-size: 55px;
   font-weight: 900;
@@ -524,7 +524,7 @@ header {
   margin: 5px 20px 5px 20px;
   text-shadow: -2px -2px 3px red; }
 
-.Lo_Que_Nos_Diferencia .Lo_Que_Nos_Diferencia_Contenedor div p {
+.lo_que_nos_diferencia .lo_que_nos_diferencia_contenedor div p {
   text-align: justify;
   margin-left: 20px;
   margin-top: 10px;
@@ -534,13 +534,13 @@ header {
   color: black;
   font-size: 20px; }
 
-.Lo_Que_Nos_Diferencia .Lo_Que_Nos_Diferencia_Contenedor img {
+.lo_que_nos_diferencia .lo_que_nos_diferencia_contenedor img {
   width: 468px;
   height: 268px;
   margin-right: 20px;
   box-shadow: 0px 0px 5px 3px black; }
 
-.Nuestros_Valores h2 {
+.nuestros_valores h2 {
   font-family: 'Courier New', Courier, monospace;
   font-size: 55px;
   font-weight: 900;
@@ -550,10 +550,10 @@ header {
   margin-bottom: 5px;
   text-shadow: -2px -2px 3px red; }
 
-.Nuestros_Valores .Nuestros_Valores_Contenedor {
+.nuestros_valores .nuestros_valores_contenedor {
   display: flex;
   justify-content: space-evenly; }
-  .Nuestros_Valores .Nuestros_Valores_Contenedor div {
+  .nuestros_valores .nuestros_valores_contenedor div {
     border: 2px solid red;
     box-shadow: 0px 0px 5px 3px black;
     border-radius: 10px;
@@ -562,13 +562,13 @@ header {
     text-align: center;
     margin: 10px;
     background-color: #0f0f0f; }
-    .Nuestros_Valores .Nuestros_Valores_Contenedor div img {
+    .nuestros_valores .nuestros_valores_contenedor div img {
       width: 350px;
       height: 250px;
       border-top-right-radius: 10px;
       border-top-left-radius: 10px;
       object-fit: cover; }
-    .Nuestros_Valores .Nuestros_Valores_Contenedor div h3 {
+    .nuestros_valores .nuestros_valores_contenedor div h3 {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-size: 20px;
       text-align: left;
@@ -576,7 +576,7 @@ header {
       color: white;
       font-weight: 100;
       line-height: normal; }
-    .Nuestros_Valores .Nuestros_Valores_Contenedor div p {
+    .nuestros_valores .nuestros_valores_contenedor div p {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       color: white;
       font-weight: 100;
@@ -585,7 +585,7 @@ header {
       margin: 10px 10px 10px 10px;
       line-height: normal; }
 
-.Revolución_Digital h2 {
+.revolución_digital h2 {
   font-family: 'Courier New', Courier, monospace;
   font-size: 40px;
   font-weight: 900;
@@ -595,7 +595,7 @@ header {
   line-height: normal;
   color: black; }
 
-.Productos h2 {
+.productos h2 {
   font-family: 'Courier New', Courier, monospace;
   font-size: 55px;
   font-weight: 900;
@@ -603,13 +603,13 @@ header {
   text-shadow: -2px -2px 3px red;
   color: black; }
 
-.Productos .Productos_Contenedor {
+.productos .productos_contenedor {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   padding-top: 20px;
   padding-bottom: 30px; }
-  .Productos .Productos_Contenedor .tarjetas_de_productos_productos {
+  .productos .productos_contenedor .tarjetas_de_productos_productos {
     width: 254px;
     height: 100%;
     border: 2px solid red;
@@ -620,22 +620,22 @@ header {
     padding-bottom: 15px;
     line-height: 1.2;
     transition: 2s; }
-    .Productos .Productos_Contenedor .tarjetas_de_productos_productos:hover {
+    .productos .productos_contenedor .tarjetas_de_productos_productos:hover {
       transform: scale(1.05);
       box-shadow: 0px 0px 12px 10px rgba(0, 0, 0, 0.75);
       -webkit-box-shadow: 0px 0px 12px 10px rgba(0, 0, 0, 0.75);
       -moz-box-shadow: 0px 0px 12px 10px rgba(0, 0, 0, 0.75); }
-    .Productos .Productos_Contenedor .tarjetas_de_productos_productos img {
+    .productos .productos_contenedor .tarjetas_de_productos_productos img {
       width: 250px;
       height: 250px;
       object-fit: cover; }
-    .Productos .Productos_Contenedor .tarjetas_de_productos_productos h3 {
+    .productos .productos_contenedor .tarjetas_de_productos_productos h3 {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-size: 14px;
       font-weight: 600;
       color: white;
       margin: 10px; }
-    .Productos .Productos_Contenedor .tarjetas_de_productos_productos .productos_descripcion_producto {
+    .productos .productos_contenedor .tarjetas_de_productos_productos .productos_descripcion_producto {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-size: 14px;
       font-weight: 100;
@@ -644,11 +644,11 @@ header {
       text-align: left;
       padding-right: 5px;
       padding-left: 5px; }
-    .Productos .Productos_Contenedor .tarjetas_de_productos_productos .productos_precio_normal_y_porcentaje_de_descuento_contenedor {
+    .productos .productos_contenedor .tarjetas_de_productos_productos .productos_precio_normal_y_porcentaje_de_descuento_contenedor {
       display: flex;
       justify-content: space-around;
       margin: 5px 0px 0px 0px; }
-      .Productos .Productos_Contenedor .tarjetas_de_productos_productos .productos_precio_normal_y_porcentaje_de_descuento_contenedor .productos_porcentaje_de_descuento {
+      .productos .productos_contenedor .tarjetas_de_productos_productos .productos_precio_normal_y_porcentaje_de_descuento_contenedor .productos_porcentaje_de_descuento {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 12px;
         font-weight: 600;
@@ -657,13 +657,13 @@ header {
         border-radius: 10px;
         padding: 2px;
         margin: 0; }
-      .Productos .Productos_Contenedor .tarjetas_de_productos_productos .productos_precio_normal_y_porcentaje_de_descuento_contenedor .productos_precio_normal {
+      .productos .productos_contenedor .tarjetas_de_productos_productos .productos_precio_normal_y_porcentaje_de_descuento_contenedor .productos_precio_normal {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 12px;
         font-weight: 100;
         color: white;
         margin: 0; }
-    .Productos .Productos_Contenedor .tarjetas_de_productos_productos .producto_precio_producto_con_transferencia {
+    .productos .productos_contenedor .tarjetas_de_productos_productos .producto_precio_producto_con_transferencia {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-size: 16px;
       font-weight: 600;
@@ -673,7 +673,7 @@ header {
       margin: 5px 0px 0px 0px;
       padding-right: 5px;
       padding-left: 5px; }
-    .Productos .Productos_Contenedor .tarjetas_de_productos_productos .producto_precio_producto_otros_medios_de_pago {
+    .productos .productos_contenedor .tarjetas_de_productos_productos .producto_precio_producto_otros_medios_de_pago {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-size: 12px;
       font-weight: 100;
@@ -682,7 +682,7 @@ header {
       text-align: left;
       padding-right: 5px;
       padding-left: 5px; }
-    .Productos .Productos_Contenedor .tarjetas_de_productos_productos a {
+    .productos .productos_contenedor .tarjetas_de_productos_productos a {
       text-decoration: none;
       color: white;
       background-color: black;
@@ -693,7 +693,7 @@ header {
       font-weight: 600;
       border-radius: 10px;
       transition-duration: 0.5s; }
-      .Productos .Productos_Contenedor .tarjetas_de_productos_productos a:hover {
+      .productos .productos_contenedor .tarjetas_de_productos_productos a:hover {
         background-color: #00c200;
         border: 2px solid #075000;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -701,7 +701,7 @@ header {
         font-size: 16px;
         font-weight: 600; }
 
-.Servicios h2 {
+.servicios h2 {
   font-family: 'Courier New', Courier, monospace;
   font-size: 55px;
   font-weight: 900;
@@ -709,11 +709,11 @@ header {
   text-shadow: -2px -2px 3px red;
   color: black; }
 
-.Servicios .Servicios_Contenedor {
+.servicios .servicios_contenedor {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap; }
-  .Servicios .Servicios_Contenedor div {
+  .servicios .servicios_contenedor div {
     width: 500px;
     height: 770px;
     border: 2px solid red;
@@ -721,18 +721,18 @@ header {
     text-align: center;
     margin: 10px;
     background-color: #0f0f0f; }
-    .Servicios .Servicios_Contenedor div img {
+    .servicios .servicios_contenedor div img {
       width: 496px;
       height: 350px;
       object-fit: cover; }
-    .Servicios .Servicios_Contenedor div h3 {
+    .servicios .servicios_contenedor div h3 {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       text-align: left;
       font-size: 20px;
       font-weight: 900;
       margin: 10px 10px 10px 10px;
       color: white; }
-    .Servicios .Servicios_Contenedor div p {
+    .servicios .servicios_contenedor div p {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-size: 20px;
       text-align: justify;
@@ -740,7 +740,7 @@ header {
       color: white;
       line-height: normal;
       font-weight: 100; }
-    .Servicios .Servicios_Contenedor div a {
+    .servicios .servicios_contenedor div a {
       text-decoration: none;
       color: white;
       background-color: black;
@@ -751,7 +751,7 @@ header {
       font-weight: 600;
       border-radius: 10px;
       transition-duration: 0.5s; }
-      .Servicios .Servicios_Contenedor div a:hover {
+      .servicios .servicios_contenedor div a:hover {
         background-color: #00c200;
         border: 2px solid #075000;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -759,7 +759,7 @@ header {
         font-size: 16px;
         font-weight: 600; }
 
-.Formulario h2 {
+.formulario h2 {
   font-family: 'Courier New', Courier, monospace;
   font-size: 55px;
   font-weight: 900;
@@ -767,10 +767,10 @@ header {
   text-shadow: -2px -2px 3px red;
   color: black; }
 
-.Formulario .Formulario_Contenedor {
+.formulario .formulario_contenedor {
   display: flex;
   justify-content: center; }
-  .Formulario .Formulario_Contenedor form {
+  .formulario .formulario_contenedor form {
     box-shadow: 0px 0px 5px 3px black;
     border: 2px solid red;
     width: 70%;
@@ -780,94 +780,94 @@ header {
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 10px; }
-    .Formulario .Formulario_Contenedor form .Nombre {
+    .formulario .formulario_contenedor form .nombre {
       display: flex;
       flex-direction: column; }
-      .Formulario .Formulario_Contenedor form .Nombre label {
+      .formulario .formulario_contenedor form .nombre label {
         margin: 5px 20px 5px 20px;
         color: white;
         font-family: Verdana, Geneva, Tahoma, sans-serif; }
-      .Formulario .Formulario_Contenedor form .Nombre input {
+      .formulario .formulario_contenedor form .nombre input {
         border: 2px solid red;
         margin: 5px 20px 5px 20px;
         width: 40%; }
-    .Formulario .Formulario_Contenedor form .Apellido {
+    .formulario .formulario_contenedor form .apellido {
       display: flex;
       flex-direction: column; }
-      .Formulario .Formulario_Contenedor form .Apellido label {
+      .formulario .formulario_contenedor form .apellido label {
         margin: 5px 20px 5px 20px;
         color: white;
         font-family: Verdana, Geneva, Tahoma, sans-serif; }
-      .Formulario .Formulario_Contenedor form .Apellido input {
+      .formulario .formulario_contenedor form .apellido input {
         border: 2px solid red;
         margin: 5px 20px 5px 20px;
         width: 40%; }
-    .Formulario .Formulario_Contenedor form .Correo {
+    .formulario .formulario_contenedor form .correo {
       display: flex;
       flex-direction: column; }
-      .Formulario .Formulario_Contenedor form .Correo label {
+      .formulario .formulario_contenedor form .correo label {
         margin: 5px 20px 5px 20px;
         color: white;
         font-family: Verdana, Geneva, Tahoma, sans-serif; }
-      .Formulario .Formulario_Contenedor form .Correo input {
+      .formulario .formulario_contenedor form .correo input {
         border: 2px solid red;
         margin: 5px 20px 5px 20px;
         width: 40%; }
-    .Formulario .Formulario_Contenedor form .Contraseña {
+    .formulario .formulario_contenedor form .contraseña {
       display: flex;
       flex-direction: column; }
-      .Formulario .Formulario_Contenedor form .Contraseña label {
+      .formulario .formulario_contenedor form .contraseña label {
         margin: 5px 20px 5px 20px;
         color: white;
         font-family: Verdana, Geneva, Tahoma, sans-serif; }
-      .Formulario .Formulario_Contenedor form .Contraseña input {
+      .formulario .formulario_contenedor form .contraseña input {
         border: 2px solid red;
         margin: 5px 20px 5px 20px;
         width: 40%; }
-    .Formulario .Formulario_Contenedor form .Genero label {
+    .formulario .formulario_contenedor form .genero label {
       margin: 5px 20px 5px 20px;
       color: white;
       font-family: Verdana, Geneva, Tahoma, sans-serif; }
-    .Formulario .Formulario_Contenedor form .Genero div input {
+    .formulario .formulario_contenedor form .genero div input {
       margin: 5px 0px 5px 0px; }
-    .Formulario .Formulario_Contenedor form .Pais {
+    .formulario .formulario_contenedor form .pais {
       display: flex;
       flex-direction: column; }
-      .Formulario .Formulario_Contenedor form .Pais label {
+      .formulario .formulario_contenedor form .pais label {
         margin: 5px 20px 5px 20px;
         color: white;
         font-family: Verdana, Geneva, Tahoma, sans-serif; }
-      .Formulario .Formulario_Contenedor form .Pais select {
+      .formulario .formulario_contenedor form .pais select {
         border: 2px solid red;
         margin: 5px 20px 5px 20px;
         width: 40%; }
-    .Formulario .Formulario_Contenedor form .Motivo {
+    .formulario .formulario_contenedor form .motivo {
       display: flex;
       flex-direction: column; }
-      .Formulario .Formulario_Contenedor form .Motivo label {
+      .formulario .formulario_contenedor form .motivo label {
         margin: 5px 20px 5px 20px;
         color: white;
         font-family: Verdana, Geneva, Tahoma, sans-serif; }
-      .Formulario .Formulario_Contenedor form .Motivo select {
+      .formulario .formulario_contenedor form .motivo select {
         border: 2px solid red;
         margin: 5px 20px 5px 20px;
         width: 40%; }
-    .Formulario .Formulario_Contenedor form .Mensaje {
+    .formulario .formulario_contenedor form .mensaje {
       display: flex;
       flex-direction: column; }
-      .Formulario .Formulario_Contenedor form .Mensaje label {
+      .formulario .formulario_contenedor form .mensaje label {
         margin: 5px 20px 5px 20px;
         color: white;
         font-family: Verdana, Geneva, Tahoma, sans-serif; }
-      .Formulario .Formulario_Contenedor form .Mensaje textarea {
+      .formulario .formulario_contenedor form .mensaje textarea {
         margin: 5px 20px 5px 20px;
         border: 2px solid red; }
-    .Formulario .Formulario_Contenedor form .EnviarRestablecer {
+    .formulario .formulario_contenedor form .enviar_restablecer {
       display: flex;
       justify-content: space-evenly;
       margin-top: 10px;
       align-items: end; }
-      .Formulario .Formulario_Contenedor form .EnviarRestablecer input {
+      .formulario .formulario_contenedor form .enviar_restablecer input {
         border: 2px solid red;
         border-radius: 10px;
         padding: 5px 5px 5px 5px;
@@ -876,7 +876,7 @@ header {
         font-weight: 900;
         color: white;
         transition-duration: 0.5s; }
-        .Formulario .Formulario_Contenedor form .EnviarRestablecer input:hover {
+        .formulario .formulario_contenedor form .enviar_restablecer input:hover {
           background-color: #00c200;
           border: 2px solid #075000;
           font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -884,53 +884,53 @@ header {
           font-size: 16px;
           font-weight: 600; }
 
-.Informacion_Contacto {
+.informacion_contacto {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row-reverse;
   flex-wrap: wrap;
   padding-top: 20px;
   padding-bottom: 20px; }
-  .Informacion_Contacto iframe {
+  .informacion_contacto iframe {
     box-shadow: 0px 0px 5px 2px black;
     border-radius: 10px; }
-  .Informacion_Contacto .Contacto_Contenedor h2 {
+  .informacion_contacto .contacto_contenedor h2 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
     font-weight: 900;
     margin-top: 5px;
     margin-bottom: 5px;
     color: black; }
-  .Informacion_Contacto .Contacto_Contenedor p {
+  .informacion_contacto .contacto_contenedor p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     color: black; }
-  .Informacion_Contacto .Contacto_Contenedor h2 {
+  .informacion_contacto .contacto_contenedor h2 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
     font-weight: 900;
     margin-top: 5px;
     margin-bottom: 5px;
     color: black; }
-  .Informacion_Contacto .Contacto_Contenedor p {
+  .informacion_contacto .contacto_contenedor p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     color: black; }
 
-.Experiencia_ZeroLag {
+.experiencia_zerolag {
   padding: 10px 20px 0px 20px; }
-  .Experiencia_ZeroLag h2 {
+  .experiencia_zerolag h2 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 55px;
     font-weight: 900;
     color: black;
     text-shadow: -2px -2px 3px red; }
-  .Experiencia_ZeroLag p {
+  .experiencia_zerolag p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     color: black;
     text-align: justify; }
-  .Experiencia_ZeroLag h2 {
+  .experiencia_zerolag h2 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 55px;
     font-weight: 900;
@@ -976,54 +976,54 @@ header {
 footer {
   background-color: #0f0f0f;
   padding-top: 10px; }
-  footer .Footer_Contenedor {
+  footer .footer_contenedor {
     display: flex;
     justify-content: space-between;
     align-items: center; }
-    footer .Footer_Contenedor .Footer_ZeroLag {
+    footer .footer_contenedor .footer_zerolag {
       margin-left: 15px; }
-      footer .Footer_Contenedor .Footer_ZeroLag h2 {
+      footer .footer_contenedor .footer_zerolag h2 {
         color: red;
         font-size: 40px;
         font-family: 'Courier New', Courier, monospace;
         font-weight: 900;
         margin-bottom: 0; }
-      footer .Footer_Contenedor .Footer_ZeroLag p {
+      footer .footer_contenedor .footer_zerolag p {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: white;
         font-size: 12px;
         margin-bottom: 0; }
-    footer .Footer_Contenedor .Medios_De_Pago h3 {
+    footer .footer_contenedor .medios_de_pago h3 {
       color: white;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-size: 15px;
       font-weight: 100;
       margin-left: 2px;
       margin-bottom: 0; }
-    footer .Footer_Contenedor .Medios_De_Pago .imagenes_medios_de_pago {
+    footer .footer_contenedor .medios_de_pago .imagenes_medios_de_pago {
       display: flex;
       flex-wrap: wrap; }
-      footer .Footer_Contenedor .Medios_De_Pago .imagenes_medios_de_pago img {
+      footer .footer_contenedor .medios_de_pago .imagenes_medios_de_pago img {
         margin: 2px 4px 2px 4px; }
-    footer .Footer_Contenedor .Redes_Sociales {
+    footer .footer_contenedor .redes_sociales {
       margin-right: 15px;
       margin-top: 15px; }
-      footer .Footer_Contenedor .Redes_Sociales h3 {
+      footer .footer_contenedor .redes_sociales h3 {
         color: white;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 15px;
         margin-bottom: 0;
         font-weight: 100; }
-      footer .Footer_Contenedor .Redes_Sociales a img {
+      footer .footer_contenedor .redes_sociales a img {
         height: 30px;
         width: 30px;
         margin: 2px 2px 2px 2px;
         border-radius: 10px; }
-  footer .Derechos_De_Autor {
+  footer .derechos_de_autor {
     padding-top: 4px;
     padding-bottom: 4px;
     background-color: black; }
-    footer .Derechos_De_Autor p {
+    footer .derechos_de_autor p {
       color: white;
       text-align: center;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -1031,131 +1031,131 @@ footer {
       margin-bottom: 0; }
 
 @media screen and (max-width: 1100px) {
-  header .navbar .Header_Navbar_Contenedor .Header_Contenedor {
+  header .navbar .header_navbar_contenedor .header_contenedor {
     display: flex;
     flex-direction: column;
     align-items: center; }
-    header .navbar .Header_Navbar_Contenedor .Header_Contenedor .barra_de_busqueda {
+    header .navbar .header_navbar_contenedor .header_contenedor .barra_de_busqueda {
       margin: 0px 0px 10px 0px;
       width: 100%; }
-      header .navbar .Header_Navbar_Contenedor .Header_Contenedor .barra_de_busqueda .Input_Buscar {
+      header .navbar .header_navbar_contenedor .header_contenedor .barra_de_busqueda .input_buscar {
         margin: 0; }
-  header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Inicio .a_Inicio {
+  header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_inicio .a_inicio {
     padding: 0px 30px 0px 30px; }
-  header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Nosotros .a_Nosotros {
+  header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_nosotros .a_nosotros {
     padding: 0px 30px 0px 30px; }
-  header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Productos .a_Productos {
+  header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_productos .a_productos {
     padding: 0px 30px 0px 30px; }
-  header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Servicios .a_Servicios {
+  header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_servicios .a_servicios {
     padding: 0px 30px 0px 30px; }
-  header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Contacto .a_Contacto {
+  header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_contacto .a_contacto {
     padding: 0px 30px 0px 30px; }
-  header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Experiencia .a_Experiencia {
+  header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_experiencia .a_experiencia {
     padding: 0px 30px 0px 30px; }
-  footer .Footer_Contenedor .Medios_De_Pago h3 {
+  footer .footer_contenedor .medios_de_pago h3 {
     text-align: center; }
-  footer .Footer_Contenedor .Medios_De_Pago .imagenes_medios_de_pago {
+  footer .footer_contenedor .medios_de_pago .imagenes_medios_de_pago {
     justify-content: center; } }
 
 @media screen and (max-width: 1025px) {
-  header .navbar .Header_Navbar_Contenedor .Header_Contenedor .barra_de_busqueda {
+  header .navbar .header_navbar_contenedor .header_contenedor .barra_de_busqueda {
     margin: 0px 0px 10px 0px;
     width: 95%; } }
 
 @media screen and (max-width: 991px) {
-  header .navbar .Header_Navbar_Contenedor .Header_Contenedor .boton_navbar_y_logo_navbar_contenedor {
+  header .navbar .header_navbar_contenedor .header_contenedor .boton_navbar_y_logo_navbar_contenedor {
     width: 100%; }
-    header .navbar .Header_Navbar_Contenedor .Header_Contenedor .boton_navbar_y_logo_navbar_contenedor .boton_navbar {
+    header .navbar .header_navbar_contenedor .header_contenedor .boton_navbar_y_logo_navbar_contenedor .boton_navbar {
       margin: 0px 10px 10px 0px; }
-  header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul {
+  header .navbar .header_navbar_contenedor .navbar_contenedor ul {
     padding: 0; }
-    header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Inicio .a_Inicio {
+    header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_inicio .a_inicio {
       display: block;
       width: 100%;
       padding: 0; }
-    header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Nosotros .a_Nosotros {
+    header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_nosotros .a_nosotros {
       display: block;
       width: 100%;
       padding: 0; }
-    header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Productos .a_Productos {
+    header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_productos .a_productos {
       display: block;
       width: 100%;
       padding: 0; }
-    header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Servicios .a_Servicios {
+    header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_servicios .a_servicios {
       display: block;
       width: 100%;
       padding: 0; }
-    header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Contacto .a_Contacto {
+    header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_contacto .a_contacto {
       display: block;
       width: 100%;
       padding: 0; }
-    header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Experiencia .a_Experiencia {
+    header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_experiencia .a_experiencia {
       display: block;
       width: 100%;
       padding: 0; } }
 
 @media screen and (max-width: 650px) {
-  footer .Footer_Contenedor .Footer_ZeroLag h2 {
+  footer .footer_contenedor .footer_zeroLag h2 {
     font-size: 30px; }
-  footer .Footer_Contenedor .Footer_ZeroLag p {
+  footer .footer_contenedor .footer_zeroLag p {
     font-size: 12px; }
-  footer .Footer_Contenedor .Medios_De_Pago h3 {
+  footer .footer_contenedor .medios_de_pago h3 {
     font-size: 12px; }
-  footer .Footer_Contenedor .Medios_De_Pago .imagenes_medios_de_pago .logo_webpay {
+  footer .footer_contenedor .medios_de_pago .imagenes_medios_de_pago .logo_webpay {
     width: 72px;
     height: 24px; }
-  footer .Footer_Contenedor .Medios_De_Pago .imagenes_medios_de_pago .logo_mercado_libre {
+  footer .footer_contenedor .medios_de_pago .imagenes_medios_de_pago .logo_mercado_libre {
     width: 73px;
     height: 24px; }
-  footer .Footer_Contenedor .Medios_De_Pago .imagenes_medios_de_pago .logo_santander {
+  footer .footer_contenedor .medios_de_pago .imagenes_medios_de_pago .logo_santander {
     width: 133.5px;
     height: 24px; }
-  footer .Footer_Contenedor .Medios_De_Pago .imagenes_medios_de_pago .logo_bancoestado {
+  footer .footer_contenedor .medios_de_pago .imagenes_medios_de_pago .logo_bancoestado {
     width: 126px;
     height: 24px; }
-  footer .Footer_Contenedor .Medios_De_Pago .imagenes_medios_de_pago .logo_fpay {
+  footer .footer_contenedor .medios_de_pago .imagenes_medios_de_pago .logo_fpay {
     width: 58.8px;
     height: 24px; }
-  footer .Footer_Contenedor .Medios_De_Pago .imagenes_medios_de_pago .logo_transferencia_bancaria {
+  footer .footer_contenedor .medios_de_pago .imagenes_medios_de_pago .logo_transferencia_bancaria {
     width: 103.11px;
     height: 24px; }
-  footer .Footer_Contenedor .Redes_Sociales h3 {
+  footer .footer_contenedor .redes_sociales h3 {
     font-size: 12px; }
-  footer .Derechos_De_Autor p {
+  footer .derechos_de_autor p {
     font-size: 10px; } }
 
 @media screen and (max-width: 576px) {
-  header .navbar .Header_Navbar_Contenedor .Header_Contenedor .boton_navbar_y_logo_navbar_contenedor .logo_navbar {
+  header .navbar .header_navbar_contenedor .header_contenedor .boton_navbar_y_logo_navbar_contenedor .logo_navbar {
     font-size: 30px; }
-  header .navbar .Header_Navbar_Contenedor .Header_Contenedor .barra_de_busqueda .Input_Buscar {
+  header .navbar .header_navbar_contenedor .header_contenedor .barra_de_busqueda .input_buscar {
     font-size: 12px; }
-  header .navbar .Header_Navbar_Contenedor .Header_Contenedor .barra_de_busqueda .Boton_Buscar {
+  header .navbar .header_navbar_contenedor .header_contenedor .barra_de_busqueda .boton_buscar {
     font-size: 12px; }
-    header .navbar .Header_Navbar_Contenedor .Header_Contenedor .barra_de_busqueda .Boton_Buscar:hover {
+    header .navbar .header_navbar_contenedor .header_contenedor .barra_de_busqueda .boton_buscar:hover {
       font-size: 12px; }
-  header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Inicio .a_Inicio {
+  header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_inicio .a_inicio {
     font-size: 12px; }
-    header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Inicio .a_Inicio:hover {
+    header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_inicio .a_inicio:hover {
       font-size: 12px; }
-  header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Nosotros .a_Nosotros {
+  header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_nosotros .a_nosotros {
     font-size: 12px; }
-    header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Nosotros .a_Nosotros:hover {
+    header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_nosotros .a_nosotros:hover {
       font-size: 12px; }
-  header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Productos .a_Productos {
+  header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_productos .a_productos {
     font-size: 12px; }
-    header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Productos .a_Productos:hover {
+    header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_productos .a_productos:hover {
       font-size: 12px; }
-  header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Servicios .a_Servicios {
+  header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_servicios .a_servicios {
     font-size: 12px; }
-    header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Servicios .a_Servicios:hover {
+    header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_servicios .a_servicios:hover {
       font-size: 12px; }
-  header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Contacto .a_Contacto {
+  header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_contacto .a_contacto {
     font-size: 12px; }
-    header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Contacto .a_Contacto:hover {
+    header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_contacto .a_contacto:hover {
       font-size: 12px; }
-  header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Experiencia .a_Experiencia {
+  header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_experiencia .a_experiencia {
     font-size: 12px; }
-    header .navbar .Header_Navbar_Contenedor .Navbar_Contenedor ul .li_Experiencia .a_Experiencia:hover {
+    header .navbar .header_navbar_contenedor .navbar_contenedor ul .li_experiencia .a_experiencia:hover {
       font-size: 12px; }
   .ofertas_imperdibles h2 {
     font-size: 20px; }
@@ -1209,247 +1209,247 @@ footer {
         font-size: 10px; } }
 
 @media screen and (max-width: 530px) {
-  footer .Footer_Contenedor {
+  footer .footer_contenedor {
     flex-wrap: wrap;
     justify-content: center; }
-    footer .Footer_Contenedor .Footer_ZeroLag h2 {
+    footer .footer_contenedor .footer_zerolag h2 {
       text-align: center; }
-    footer .Footer_Contenedor .Footer_ZeroLag p {
+    footer .footer_contenedor .footer_zerolag p {
       text-align: center; }
-    footer .Footer_Contenedor .Medios_De_Pago h3 {
+    footer .footer_contenedor .medios_de_pago h3 {
       text-align: center;
       margin: 10px 0px 0px 0px; }
-    footer .Footer_Contenedor .Medios_De_Pago .imagenes_medios_de_pago {
+    footer .footer_contenedor .medios_de_pago .imagenes_medios_de_pago {
       justify-content: center; } }
 
 @media screen and (max-width: 1100px) {
-  .Quienes_Somos {
+  .quienes_somos {
     padding: 10px 20px 10px 20px; }
-    .Quienes_Somos h2 {
+    .quienes_somos h2 {
       margin: 0; }
-    .Quienes_Somos .Quienes_Somos_Contenedor {
+    .quienes_somos .quienes_somos_contenedor {
       justify-content: center;
       flex-wrap: wrap; }
-      .Quienes_Somos .Quienes_Somos_Contenedor div p {
+      .quienes_somos .quienes_somos_contenedor div p {
         width: 100%;
         margin: 0; }
-      .Quienes_Somos .Quienes_Somos_Contenedor img {
+      .quienes_somos .quienes_somos_contenedor img {
         margin: 10px 0px 0px 0px; }
-  .Nuestra_Mision {
+  .nuestra_mision {
     padding: 10px 20px 10px 20px; }
-    .Nuestra_Mision h2 {
+    .nuestra_mision h2 {
       margin: 0px; }
-    .Nuestra_Mision .Nuestra_Mision_Contenedor {
+    .nuestra_mision .nuestra_mision_contenedor {
       flex-wrap: wrap;
       justify-content: center; }
-      .Nuestra_Mision .Nuestra_Mision_Contenedor div p {
+      .nuestra_mision .nuestra_mision_contenedor div p {
         margin: 0px;
         width: 100%; }
-      .Nuestra_Mision .Nuestra_Mision_Contenedor img {
+      .nuestra_mision .nuestra_mision_contenedor img {
         margin: 10px 0px 0px 0px; }
-  .Lo_Que_Nos_Diferencia {
+  .lo_que_nos_diferencia {
     padding: 10px 20px 10px 20px; }
-    .Lo_Que_Nos_Diferencia h2 {
+    .lo_que_nos_diferencia h2 {
       margin: 0px; }
-    .Lo_Que_Nos_Diferencia .Lo_Que_Nos_Diferencia_Contenedor {
+    .lo_que_nos_diferencia .lo_que_nos_diferencia_contenedor {
       flex-wrap: wrap;
       justify-content: center; }
-      .Lo_Que_Nos_Diferencia .Lo_Que_Nos_Diferencia_Contenedor div p {
+      .lo_que_nos_diferencia .lo_que_nos_diferencia_contenedor div p {
         margin: 0px;
         width: 100%; }
-      .Lo_Que_Nos_Diferencia .Lo_Que_Nos_Diferencia_Contenedor img {
+      .lo_que_nos_diferencia .lo_que_nos_diferencia_contenedor img {
         margin: 10px 0px 0px 0px; }
-  .Nuestros_Valores {
+  .nuestros_valores {
     padding: 10px 20px 10px 20px; }
-    .Nuestros_Valores h2 {
+    .nuestros_valores h2 {
       margin: 0px; }
-    .Nuestros_Valores .Nuestros_Valores_Contenedor {
+    .nuestros_valores .nuestros_valores_contenedor {
       flex-wrap: wrap; }
-  .Revolución_Digital {
+  .revolución_digital {
     padding: 10px 20px 10px 20px; }
-    .Revolución_Digital h2 {
+    .revolución_digital h2 {
       margin: 0; } }
 
 @media screen and (max-width: 576px) {
-  .Quienes_Somos h2 {
+  .quienes_somos h2 {
     font-size: 30px; }
-  .Quienes_Somos .Quienes_Somos_Contenedor div p {
+  .quienes_somos .quienes_somos_contenedor div p {
     font-size: 14px; }
-  .Quienes_Somos .Quienes_Somos_Contenedor img {
+  .quienes_somos .quienes_somos_contenedor img {
     width: 300px;
     height: 141px; }
-  .Nuestra_Mision h2 {
+  .nuestra_mision h2 {
     font-size: 30px; }
-  .Nuestra_Mision .Nuestra_Mision_Contenedor div p {
+  .nuestra_mision .nuestra_mision_contenedor div p {
     font-size: 14px; }
-  .Nuestra_Mision .Nuestra_Mision_Contenedor img {
+  .nuestra_mision .nuestra_mision_contenedor img {
     width: 300px;
     height: 200px; }
-  .Lo_Que_Nos_Diferencia h2 {
+  .lo_que_nos_diferencia h2 {
     font-size: 30px; }
-  .Lo_Que_Nos_Diferencia .Lo_Que_Nos_Diferencia_Contenedor div p {
+  .lo_que_nos_diferencia .lo_que_nos_diferencia_contenedor div p {
     font-size: 14px; }
-  .Lo_Que_Nos_Diferencia .Lo_Que_Nos_Diferencia_Contenedor img {
+  .lo_que_nos_diferencia .lo_que_nos_diferencia_contenedor img {
     width: 300px;
     height: 200px; }
-  .Nuestros_Valores h2 {
+  .nuestros_valores h2 {
     font-size: 30px; }
-  .Nuestros_Valores .Nuestros_Valores_Contenedor div {
+  .nuestros_valores .nuestros_valores_contenedor div {
     width: 304px;
     height: auto; }
-    .Nuestros_Valores .Nuestros_Valores_Contenedor div img {
+    .nuestros_valores .nuestros_valores_contenedor div img {
       width: 300px;
       height: 200px; }
-    .Nuestros_Valores .Nuestros_Valores_Contenedor div h3 {
+    .nuestros_valores .nuestros_valores_contenedor div h3 {
       font-size: 14px; }
-    .Nuestros_Valores .Nuestros_Valores_Contenedor div p {
+    .nuestros_valores .nuestros_valores_contenedor div p {
       font-size: 14px; }
-  .Revolución_Digital h2 {
+  .revolución_digital h2 {
     font-size: 30px; } }
 
 @media screen and (max-width: 1100px) {
-  .Productos {
+  .productos {
     padding: 10px 20px 10px 20px; }
-    .Productos h2 {
+    .productos h2 {
       margin: 0; } }
 
 @media screen and (max-width: 576px) {
-  .Productos h2 {
+  .productos h2 {
     font-size: 30px; }
-  .Productos .Productos_Contenedor .tarjetas_de_productos_productos h3 {
+  .productos .productos_contenedor .tarjetas_de_productos_productos h3 {
     font-size: 12px; }
-  .Productos .Productos_Contenedor .tarjetas_de_productos_productos .productos_descripcion_producto {
+  .productos .productos_contenedor .tarjetas_de_productos_productos .productos_descripcion_producto {
     font-size: 11px; }
-  .Productos .Productos_Contenedor .tarjetas_de_productos_productos .productos_precio_normal_y_porcentaje_de_descuento_contenedor .productos_porcentaje_de_descuento {
+  .productos .productos_contenedor .tarjetas_de_productos_productos .productos_precio_normal_y_porcentaje_de_descuento_contenedor .productos_porcentaje_de_descuento {
     font-size: 11px; }
-  .Productos .Productos_Contenedor .tarjetas_de_productos_productos .productos_precio_normal_y_porcentaje_de_descuento_contenedor .productos_precio_normal {
+  .productos .productos_contenedor .tarjetas_de_productos_productos .productos_precio_normal_y_porcentaje_de_descuento_contenedor .productos_precio_normal {
     font-size: 11px; }
-  .Productos .Productos_Contenedor .tarjetas_de_productos_productos .producto_precio_producto_con_transferencia {
+  .productos .productos_contenedor .tarjetas_de_productos_productos .producto_precio_producto_con_transferencia {
     font-size: 14px; }
-  .Productos .Productos_Contenedor .tarjetas_de_productos_productos .producto_precio_producto_otros_medios_de_pago {
+  .productos .productos_contenedor .tarjetas_de_productos_productos .producto_precio_producto_otros_medios_de_pago {
     font-size: 11px; }
-  .Productos .Productos_Contenedor .tarjetas_de_productos_productos a {
+  .productos .productos_contenedor .tarjetas_de_productos_productos a {
     font-size: 10px; }
-    .Productos .Productos_Contenedor .tarjetas_de_productos_productos a:hover {
+    .productos .productos_contenedor .tarjetas_de_productos_productos a:hover {
       font-size: 10px; } }
 
 @media screen and (max-width: 1100px) {
-  .Servicios {
+  .servicios {
     padding: 10px 20px 10px 20px; }
-    .Servicios h2 {
+    .servicios h2 {
       margin: 0; } }
 
 @media screen and (max-width: 576px) {
-  .Servicios h2 {
+  .servicios h2 {
     font-size: 30px; }
-  .Servicios .Servicios_Contenedor div {
+  .servicios .servicios_contenedor div {
     width: 254px;
     height: 560px; }
-    .Servicios .Servicios_Contenedor div img {
+    .servicios .servicios_contenedor div img {
       width: 250px;
       height: 141px; }
-    .Servicios .Servicios_Contenedor div h3 {
+    .servicios .servicios_contenedor div h3 {
       font-size: 14px; }
-    .Servicios .Servicios_Contenedor div p {
+    .servicios .servicios_contenedor div p {
       font-size: 14px; }
-    .Servicios .Servicios_Contenedor div a {
+    .servicios .servicios_contenedor div a {
       font-size: 14px; }
-      .Servicios .Servicios_Contenedor div a:hover {
+      .servicios .servicios_contenedor div a:hover {
         font-size: 14px; } }
 
 @media screen and (max-width: 1100px) {
-  .Formulario {
+  .formulario {
     padding: 10px 0px 0px 0px; }
-    .Formulario h2 {
+    .formulario h2 {
       margin: 0px 0px 0px 20px; }
-    .Formulario .Formulario_Contenedor form .Nombre input {
+    .formulario .formulario_contenedor form .nombre input {
       width: 50%; }
-    .Formulario .Formulario_Contenedor form .Apellido input {
+    .formulario .formulario_contenedor form .apellido input {
       width: 50%; }
-    .Formulario .Formulario_Contenedor form .Correo input {
+    .formulario .formulario_contenedor form .correo input {
       width: 50%; }
-    .Formulario .Formulario_Contenedor form .Contraseña input {
+    .formulario .formulario_contenedor form .contraseña input {
       width: 50%; }
-  .Informacion_Contacto {
+  .informacion_contacto {
     padding: 10px 20px 10px 20px; }
-    .Informacion_Contacto .Contacto_Contenedor {
+    .informacion_contacto .contacto_contenedor {
       margin-right: 10px; } }
 
 @media screen and (max-width: 810px) {
-  .Informacion_Contacto .Contacto_Contenedor {
+  .informacion_contacto .contacto_contenedor {
     margin-top: 10px;
     text-align: center; } }
 
 @media screen and (max-width: 800px) {
-  .Formulario .Formulario_Contenedor form .Nombre input {
+  .formulario .formulario_contenedor form .nombre input {
     width: 65%; }
-  .Formulario .Formulario_Contenedor form .Apellido input {
+  .formulario .formulario_contenedor form .apellido input {
     width: 65%; }
-  .Formulario .Formulario_Contenedor form .Correo input {
+  .formulario .formulario_contenedor form .correo input {
     width: 65%; }
-  .Formulario .Formulario_Contenedor form .Contraseña input {
+  .formulario .formulario_contenedor form .contraseña input {
     width: 65%; } }
 
 @media screen and (max-width: 576px) {
-  .Formulario h2 {
+  .formulario h2 {
     font-size: 30px; }
-  .Formulario .Formulario_Contenedor form .Nombre label {
+  .formulario .formulario_contenedor form .nombre label {
     font-size: 14px; }
-  .Formulario .Formulario_Contenedor form .Nombre input {
+  .formulario .formulario_contenedor form .nombre input {
     font-size: 14px;
     width: 90%; }
-  .Formulario .Formulario_Contenedor form .Apellido label {
+  .formulario .formulario_contenedor form .apellido label {
     font-size: 14px; }
-  .Formulario .Formulario_Contenedor form .Apellido input {
+  .formulario .formulario_contenedor form .apellido input {
     font-size: 14px;
     width: 90%; }
-  .Formulario .Formulario_Contenedor form .Correo label {
+  .formulario .formulario_contenedor form .correo label {
     font-size: 14px; }
-  .Formulario .Formulario_Contenedor form .Correo input {
+  .formulario .formulario_contenedor form .correo input {
     font-size: 14px;
     width: 90%; }
-  .Formulario .Formulario_Contenedor form .Contraseña label {
+  .formulario .formulario_contenedor form .contraseña label {
     font-size: 14px; }
-  .Formulario .Formulario_Contenedor form .Contraseña input {
+  .formulario .formulario_contenedor form .contraseña input {
     font-size: 14px;
     width: 90%; }
-  .Formulario .Formulario_Contenedor form .Genero label {
+  .formulario .formulario_contenedor form .genero label {
     font-size: 14px; }
-  .Formulario .Formulario_Contenedor form .Pais label {
+  .formulario .formulario_contenedor form .pais label {
     font-size: 14px; }
-  .Formulario .Formulario_Contenedor form .Pais select {
+  .formulario .formulario_contenedor form .pais select {
     font-size: 14px; }
-  .Formulario .Formulario_Contenedor form .Motivo label {
+  .formulario .formulario_contenedor form .motivo label {
     font-size: 14px; }
-  .Formulario .Formulario_Contenedor form .Motivo select {
+  .formulario .formulario_contenedor form .motivo select {
     font-size: 14px; }
-  .Formulario .Formulario_Contenedor form .Mensaje label {
+  .formulario .formulario_contenedor form .mensaje label {
     font-size: 14px; }
-  .Formulario .Formulario_Contenedor form .Mensaje textarea {
+  .formulario .formulario_contenedor form .mensaje textarea {
     font-size: 14px; }
-  .Formulario .Formulario_Contenedor form .EnviarRestablecer input {
+  .formulario .formulario_contenedor form .enviar_restablecer input {
     font-size: 14px; }
-    .Formulario .Formulario_Contenedor form .EnviarRestablecer input:hover {
+    .formulario .formulario_contenedor form .enviar_restablecer input:hover {
       font-size: 14px; }
-  .Informacion_Contacto .Contacto_Contenedor h2 {
+  .informacion_contacto .contacto_contenedor h2 {
     font-size: 16px; }
-  .Informacion_Contacto .Contacto_Contenedor p {
+  .informacion_contacto .contacto_contenedor p {
     font-size: 14px; }
-  .Informacion_Contacto .Contacto_Contenedor h2 {
+  .informacion_contacto .contacto_contenedor h2 {
     font-size: 16px; }
-  .Informacion_Contacto .Contacto_Contenedor p {
+  .informacion_contacto .contacto_contenedor p {
     font-size: 14px; } }
 
 @media screen and (max-width: 500px) {
-  .Formulario .Formulario_Contenedor form {
+  .formulario .formulario_contenedor form {
     width: 80%; } }
 
 @media screen and (max-width: 400px) {
-  .Formulario .Formulario_Contenedor form {
+  .formulario .formulario_contenedor form {
     width: 90%; } }
 
 @media screen and (max-width: 370px) {
-  .Formulario .Formulario_Contenedor form {
+  .formulario .formulario_contenedor form {
     width: 95%; } }
 
 @media screen and (max-width: 1100px) {
@@ -1471,9 +1471,9 @@ footer {
     gap: 30px; } }
 
 @media screen and (max-width: 576px) {
-  .Experiencia_ZeroLag h2 {
+  .experiencia_zerolag h2 {
     font-size: 30px; }
-  .Experiencia_ZeroLag p {
+  .experiencia_zerolag p {
     font-size: 14px; }
-  .Experiencia_ZeroLag h2 {
+  .experiencia_zerolag h2 {
     font-size: 30px; } }

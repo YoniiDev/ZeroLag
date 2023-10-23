@@ -21,14 +21,14 @@ header {
         padding: 0px 0px 10px 0px;
         line-height: normal;
 
-        .Header_Navbar_Contenedor {
+        .header_navbar_contenedor {
             display: flex;
             flex-direction: column;
             width: 100%;
             margin-left: 20px;
             margin-right: 20px;
 
-            .Header_Contenedor {
+            .header_contenedor {
                 display: flex;
 
                 .boton_navbar_y_logo_navbar_contenedor {
@@ -64,7 +64,7 @@ header {
                     padding: 0;
                     margin-left: 15px;
 
-                    .Input_Buscar {
+                    .input_buscar {
                         border: solid 2px red;
                         font-family: Verdana, Geneva, Tahoma, sans-serif;
                         margin: 0;
@@ -76,7 +76,7 @@ header {
                         }
                     }
 
-                    .Boton_Buscar {
+                    .boton_buscar {
                         padding: 6px;
                         border-radius: 10px;
                         border: solid 2px red;
@@ -99,12 +99,12 @@ header {
                 }
             }
 
-            .Navbar_Contenedor {
+            .navbar_contenedor {
                 ul {
                     padding: 0;
 
-                    .li_Inicio {
-                        .a_Inicio {
+                    .li_inicio {
+                        .a_inicio {
                             text-decoration: none;
                             font-family: Verdana, Geneva, Tahoma, sans-serif;
                             color: white;
@@ -128,8 +128,8 @@ header {
                         }
                     }
 
-                    .li_Nosotros {
-                        .a_Nosotros {
+                    .li_nosotros {
+                        .a_nosotros {
                             text-decoration: none;
                             font-family: Verdana, Geneva, Tahoma, sans-serif;
                             color: white;
@@ -153,8 +153,8 @@ header {
                         }
                     }
 
-                    .li_Productos {
-                        .a_Productos {
+                    .li_productos {
+                        .a_productos {
                             text-decoration: none;
                             font-family: Verdana, Geneva, Tahoma, sans-serif;
                             color: white;
@@ -178,8 +178,8 @@ header {
                         }
                     }
 
-                    .li_Servicios {
-                        .a_Servicios {
+                    .li_servicios {
+                        .a_servicios {
                             text-decoration: none;
                             font-family: Verdana, Geneva, Tahoma, sans-serif;
                             color: white;
@@ -203,8 +203,8 @@ header {
                         }
                     }
 
-                    .li_Contacto {
-                        .a_Contacto {
+                    .li_contacto {
+                        .a_contacto {
                             text-decoration: none;
                             font-family: Verdana, Geneva, Tahoma, sans-serif;
                             color: white;
@@ -228,8 +228,8 @@ header {
                         }
                     }
 
-                    .li_Experiencia {
-                        .a_Experiencia {
+                    .li_experiencia {
+                        .a_experiencia {
                             text-decoration: none;
                             font-family: Verdana, Geneva, Tahoma, sans-serif;
                             color: white;

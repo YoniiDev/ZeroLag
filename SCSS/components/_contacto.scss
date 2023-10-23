@@ -1,4 +1,4 @@
-.Formulario {
+.formulario {
     h2 {
         font-family: 'Courier New', Courier, monospace;
         font-size: 55px;
@@ -9,7 +9,7 @@
 
     }
 
-    .Formulario_Contenedor {
+    .formulario_contenedor {
         display: flex;
         justify-content: center;
 
@@ -24,7 +24,7 @@
             margin-bottom: 10px;
             border-radius: 10px;
 
-            .Nombre {
+            .nombre {
                 display: flex;
                 flex-direction: column;
 
@@ -42,7 +42,7 @@
                 }
             }
 
-            .Apellido {
+            .apellido {
                 display: flex;
                 flex-direction: column;
 
@@ -59,7 +59,7 @@
                 }
             }
 
-            .Correo {
+            .correo {
                 display: flex;
                 flex-direction: column;
 
@@ -76,7 +76,7 @@
                 }
             }
 
-            .Contraseña {
+            .contraseña {
                 display: flex;
                 flex-direction: column;
 
@@ -93,7 +93,7 @@
                 }
             }
 
-            .Genero {
+            .genero {
                 label {
                     margin: 5px 20px 5px 20px;
                     color: white;
@@ -109,7 +109,7 @@
                 }
             }
 
-            .Pais {
+            .pais {
                 display: flex;
                 flex-direction: column;
 
@@ -128,7 +128,7 @@
                 }
             }
 
-            .Motivo {
+            .motivo {
                 display: flex;
                 flex-direction: column;
 
@@ -147,7 +147,7 @@
                 }
             }
 
-            .Mensaje {
+            .mensaje {
                 display: flex;
                 flex-direction: column;
 
@@ -163,7 +163,7 @@
                 }
             }
 
-            .EnviarRestablecer {
+            .enviar_restablecer {
                 display: flex;
                 justify-content: space-evenly;
                 margin-top: 10px;
@@ -193,7 +193,7 @@
     }
 }
 
-.Informacion_Contacto {
+.informacion_contacto {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row-reverse;
@@ -206,7 +206,7 @@
         border-radius: 10px;
     }
 
-    .Contacto_Contenedor {
+    .contacto_contenedor {
         h2 {
             font-family: 'Courier New', Courier, monospace;
             font-size: 30px;

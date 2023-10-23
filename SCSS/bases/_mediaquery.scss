@@ -4,9 +4,9 @@
 
         .navbar {
 
-            .Header_Navbar_Contenedor {
+            .header_navbar_contenedor {
 
-                .Header_Contenedor {
+                .header_contenedor {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
@@ -27,49 +27,49 @@
                         margin: 0px 0px 10px 0px;
                         width: 100%;
 
-                        .Input_Buscar {
+                        .input_buscar {
                             margin: 0;
                         }
 
-                        .Boton_Buscar {}
+                        .boton_buscar {}
                     }
                 }
 
-                .Navbar_Contenedor {
+                .navbar_contenedor {
                     ul {
 
-                        .li_Inicio {
-                            .a_Inicio {
+                        .li_inicio {
+                            .a_inicio {
                                 padding: 0px 30px 0px 30px;
                             }
                         }
 
-                        .li_Nosotros {
-                            .a_Nosotros {
+                        .li_nosotros {
+                            .a_nosotros {
                                 padding: 0px 30px 0px 30px;
                             }
                         }
 
-                        .li_Productos {
-                            .a_Productos {
+                        .li_productos {
+                            .a_productos {
                                 padding: 0px 30px 0px 30px;
                             }
                         }
 
-                        .li_Servicios {
-                            .a_Servicios {
+                        .li_servicios {
+                            .a_servicios {
                                 padding: 0px 30px 0px 30px;
                             }
                         }
 
-                        .li_Contacto {
-                            .a_Contacto {
+                        .li_contacto {
+                            .a_contacto {
                                 padding: 0px 30px 0px 30px;
                             }
                         }
 
-                        .li_Experiencia {
-                            .a_Experiencia {
+                        .li_experiencia {
+                            .a_experiencia {
                                 padding: 0px 30px 0px 30px;
                             }
                         }
@@ -81,14 +81,14 @@
 
     footer {
 
-        .Footer_Contenedor {
+        .footer_contenedor {
 
-            .Footer_ZeroLag {
+            .footer_zeroLag {
 
                 p {}
             }
 
-            .Medios_De_Pago {
+            .medios_de_pago {
                 h3 {
                     text-align: center;
                 }
@@ -100,7 +100,7 @@
                 }
             }
 
-            .Redes_Sociales {
+            .redes_sociales {
 
                 h3 {}
 
@@ -110,7 +110,7 @@
             }
         }
 
-        .Derechos_De_Autor {
+        .derechos_de_autor {
 
             p {}
         }
@@ -122,9 +122,9 @@
 
         .navbar {
 
-            .Header_Navbar_Contenedor {
+            .header_navbar_contenedor {
 
-                .Header_Contenedor {
+                .header_contenedor {
 
                     .boton_navbar_y_logo_navbar_contenedor {
                         .boton_navbar {
@@ -142,37 +142,37 @@
                         margin: 0px 0px 10px 0px;
                         width: 95%;
 
-                        .Input_Buscar {}
+                        .input_buscar {}
 
-                        .Boton_Buscar {}
+                        .boton_buscar {}
                     }
                 }
 
-                .Navbar_Contenedor {
+                .navbar_contenedor {
                     ul {
 
-                        .li_Inicio {
-                            .a_Inicio {}
+                        .li_inicio {
+                            .a_inicio {}
                         }
 
-                        .li_Nosotros {
-                            .a_Nosotros {}
+                        .li_nosotros {
+                            .a_nosotros {}
                         }
 
-                        .li_Productos {
-                            .a_Productos {}
+                        .li_productos {
+                            .a_productos {}
                         }
 
-                        .li_Servicios {
-                            .a_Servicios {}
+                        .li_servicios {
+                            .a_servicios {}
                         }
 
-                        .li_Contacto {
-                            .a_Contacto {}
+                        .li_contacto {
+                            .a_contacto {}
                         }
 
-                        .li_Experiencia {
-                            .a_Experiencia {}
+                        .li_experiencia {
+                            .a_experiencia {}
                         }
                     }
                 }
@@ -186,9 +186,9 @@
 
         .navbar {
 
-            .Header_Navbar_Contenedor {
+            .header_navbar_contenedor {
 
-                .Header_Contenedor {
+                .header_contenedor {
 
                     .boton_navbar_y_logo_navbar_contenedor {
                         width: 100%;
@@ -207,58 +207,58 @@
 
                     .barra_de_busqueda {
 
-                        .Input_Buscar {}
+                        .input_buscar {}
 
-                        .Boton_Buscar {}
+                        .boton_buscar {}
                     }
                 }
 
-                .Navbar_Contenedor {
+                .navbar_contenedor {
                     ul {
                         padding: 0;
 
-                        .li_Inicio {
-                            .a_Inicio {
+                        .li_inicio {
+                            .a_inicio {
                                 display: block;
                                 width: 100%;
                                 padding: 0;
                             }
                         }
 
-                        .li_Nosotros {
-                            .a_Nosotros {
+                        .li_nosotros {
+                            .a_nosotros {
                                 display: block;
                                 width: 100%;
                                 padding: 0;
                             }
                         }
 
-                        .li_Productos {
-                            .a_Productos {
+                        .li_productos {
+                            .a_productos {
                                 display: block;
                                 width: 100%;
                                 padding: 0;
                             }
                         }
 
-                        .li_Servicios {
-                            .a_Servicios {
+                        .li_servicios {
+                            .a_servicios {
                                 display: block;
                                 width: 100%;
                                 padding: 0;
                             }
                         }
 
-                        .li_Contacto {
-                            .a_Contacto {
+                        .li_contacto {
+                            .a_contacto {
                                 display: block;
                                 width: 100%;
                                 padding: 0;
                             }
                         }
 
-                        .li_Experiencia {
-                            .a_Experiencia {
+                        .li_experiencia {
+                            .a_experiencia {
                                 display: block;
                                 width: 100%;
                                 padding: 0;
@@ -274,9 +274,9 @@
 @media screen and (max-width:650px) {
     footer {
 
-        .Footer_Contenedor {
+        .footer_contenedor {
 
-            .Footer_ZeroLag {
+            .footer_zeroLag {
 
                 h2 {
                     font-size: 30px;
@@ -287,7 +287,7 @@
                 }
             }
 
-            .Medios_De_Pago {
+            .medios_de_pago {
                 h3 {
                     font-size: 12px;
                 }
@@ -326,7 +326,7 @@
                 }
             }
 
-            .Redes_Sociales {
+            .redes_sociales {
 
                 h3 {
                     font-size: 12px;
@@ -338,7 +338,7 @@
             }
         }
 
-        .Derechos_De_Autor {
+        .derechos_de_autor {
 
             p {
                 font-size: 10px;
@@ -353,9 +353,9 @@
         .navbar {
 
 
-            .Header_Navbar_Contenedor {
+            .header_navbar_contenedor {
 
-                .Header_Contenedor {
+                .header_contenedor {
 
                     .boton_navbar_y_logo_navbar_contenedor {
                         .boton_navbar {
@@ -372,11 +372,11 @@
 
                     .barra_de_busqueda {
 
-                        .Input_Buscar {
+                        .input_buscar {
                             font-size: 12px;
                         }
 
-                        .Boton_Buscar {
+                        .boton_buscar {
                             font-size: 12px;
 
                             &:hover {
@@ -386,11 +386,11 @@
                     }
                 }
 
-                .Navbar_Contenedor {
+                .navbar_contenedor {
                     ul {
 
-                        .li_Inicio {
-                            .a_Inicio {
+                        .li_inicio {
+                            .a_inicio {
                                 font-size: 12px;
 
                                 &:hover {
@@ -399,8 +399,8 @@
                             }
                         }
 
-                        .li_Nosotros {
-                            .a_Nosotros {
+                        .li_nosotros {
+                            .a_nosotros {
                                 font-size: 12px;
 
                                 &:hover {
@@ -409,8 +409,8 @@
                             }
                         }
 
-                        .li_Productos {
-                            .a_Productos {
+                        .li_productos {
+                            .a_productos {
                                 font-size: 12px;
 
                                 &:hover {
@@ -419,8 +419,8 @@
                             }
                         }
 
-                        .li_Servicios {
-                            .a_Servicios {
+                        .li_servicios {
+                            .a_servicios {
                                 font-size: 12px;
 
                                 &:hover {
@@ -429,8 +429,8 @@
                             }
                         }
 
-                        .li_Contacto {
-                            .a_Contacto {
+                        .li_contacto {
+                            .a_contacto {
                                 font-size: 12px;
 
                                 &:hover {
@@ -439,8 +439,8 @@
                             }
                         }
 
-                        .li_Experiencia {
-                            .a_Experiencia {
+                        .li_experiencia {
+                            .a_experiencia {
                                 font-size: 12px;
 
                                 &:hover {
@@ -581,11 +581,11 @@
 @media screen and (max-width:530px) {
     footer {
 
-        .Footer_Contenedor {
+        .footer_contenedor {
             flex-wrap: wrap;
             justify-content: center;
 
-            .Footer_ZeroLag {
+            .footer_zerolag {
 
                 h2 {
                     text-align: center;
@@ -596,7 +596,7 @@
                 }
             }
 
-            .Medios_De_Pago {
+            .medios_de_pago {
                 h3 {
                     text-align: center;
                     margin: 10px 0px 0px 0px;
@@ -609,7 +609,7 @@
                 }
             }
 
-            .Redes_Sociales {
+            .redes_sociales {
 
 
                 h3 {}
@@ -620,7 +620,7 @@
             }
         }
 
-        .Derechos_De_Autor {
+        .derechos_de_autor {
 
             p {}
         }
@@ -629,14 +629,14 @@
 
 //-----MEDIA QUERY NOSOTROS-----//
 @media screen and (max-width:1100px) {
-    .Quienes_Somos {
+    .quienes_somos {
         padding: 10px 20px 10px 20px;
 
         h2 {
             margin: 0;
         }
 
-        .Quienes_Somos_Contenedor {
+        .quienes_somos_contenedor {
             justify-content: center;
             flex-wrap: wrap;
 
@@ -653,14 +653,14 @@
         }
     }
 
-    .Nuestra_Mision {
+    .nuestra_mision {
         padding: 10px 20px 10px 20px;
 
         h2 {
             margin: 0px;
         }
 
-        .Nuestra_Mision_Contenedor {
+        .nuestra_mision_contenedor {
             flex-wrap: wrap;
             justify-content: center;
 
@@ -677,14 +677,14 @@
         }
     }
 
-    .Lo_Que_Nos_Diferencia {
+    .lo_que_nos_diferencia {
         padding: 10px 20px 10px 20px;
 
         h2 {
             margin: 0px;
         }
 
-        .Lo_Que_Nos_Diferencia_Contenedor {
+        .lo_que_nos_diferencia_contenedor {
             flex-wrap: wrap;
             justify-content: center;
 
@@ -701,14 +701,14 @@
         }
     }
 
-    .Nuestros_Valores {
+    .nuestros_valores {
         padding: 10px 20px 10px 20px;
 
         h2 {
             margin: 0px;
         }
 
-        .Nuestros_Valores_Contenedor {
+        .nuestros_valores_contenedor {
             flex-wrap: wrap;
 
             div {
@@ -722,7 +722,7 @@
         }
     }
 
-    .Revolución_Digital {
+    .revolución_digital {
         padding: 10px 20px 10px 20px;
 
         h2 {
@@ -732,12 +732,12 @@
 }
 
 @media screen and (max-width:576px) {
-    .Quienes_Somos {
+    .quienes_somos {
         h2 {
             font-size: 30px;
         }
 
-        .Quienes_Somos_Contenedor {
+        .quienes_somos_contenedor {
 
             div {
                 p {
@@ -752,12 +752,12 @@
         }
     }
 
-    .Nuestra_Mision {
+    .nuestra_mision {
         h2 {
             font-size: 30px;
         }
 
-        .Nuestra_Mision_Contenedor {
+        .nuestra_mision_contenedor {
 
             div {
                 p {
@@ -772,12 +772,12 @@
         }
     }
 
-    .Lo_Que_Nos_Diferencia {
+    .lo_que_nos_diferencia {
         h2 {
             font-size: 30px;
         }
 
-        .Lo_Que_Nos_Diferencia_Contenedor {
+        .lo_que_nos_diferencia_contenedor {
 
             div {
                 p {
@@ -792,12 +792,12 @@
         }
     }
 
-    .Nuestros_Valores {
+    .nuestros_valores {
         h2 {
             font-size: 30px;
         }
 
-        .Nuestros_Valores_Contenedor {
+        .nuestros_valores_contenedor {
 
             div {
                 width: 304px;
@@ -819,7 +819,7 @@
         }
     }
 
-    .Revolución_Digital {
+    .revolución_digital {
         h2 {
             font-size: 30px;
         }
@@ -828,14 +828,14 @@
 
 //-----MEDIA QUERY PODUCTOS-----//
 @media screen and (max-width:1100px) {
-    .Productos {
+    .productos {
         padding: 10px 20px 10px 20px;
 
         h2 {
             margin: 0;
         }
 
-        .Productos_Contenedor {
+        .productos_contenedor {
 
             .tarjetas_de_productos_productos {
 
@@ -864,12 +864,12 @@
 }
 
 @media screen and (max-width:576px) {
-    .Productos {
+    .productos {
         h2 {
             font-size: 30px;
         }
 
-        .Productos_Contenedor {
+        .productos_contenedor {
 
             .tarjetas_de_productos_productos {
 
@@ -916,14 +916,14 @@
 
 //-----MEDIA QUERY SERVICIOS-----//
 @media screen and (max-width:1100px) {
-    .Servicios {
+    .servicios {
         padding: 10px 20px 10px 20px;
 
         h2 {
             margin: 0;
         }
 
-        .Servicios_Contenedor {
+        .servicios_contenedor {
 
             div {
 
@@ -940,12 +940,12 @@
 }
 
 @media screen and (max-width:576px) {
-    .Servicios {
+    .servicios {
         h2 {
             font-size: 30px;
         }
 
-        .Servicios_Contenedor {
+        .servicios_contenedor {
 
             div {
                 width: 254px;
@@ -978,18 +978,18 @@
 
 //-----MEDIA QUERY CONTACTO-----//
 @media screen and (max-width:1100px) {
-    .Formulario {
+    .formulario {
         padding: 10px 0px 0px 0px;
 
         h2 {
             margin: 0px 0px 0px 20px
         }
 
-        .Formulario_Contenedor {
+        .formulario_contenedor {
 
             form {
 
-                .Nombre {
+                .nombre {
 
                     label {}
 
@@ -998,7 +998,7 @@
                     }
                 }
 
-                .Apellido {
+                .apellido {
 
                     label {}
 
@@ -1007,7 +1007,7 @@
                     }
                 }
 
-                .Correo {
+                .correo {
 
                     label {}
 
@@ -1016,7 +1016,7 @@
                     }
                 }
 
-                .Contraseña {
+                .contraseña {
 
                     label {}
 
@@ -1025,7 +1025,7 @@
                     }
                 }
 
-                .Genero {
+                .genero {
                     label {}
 
                     div {
@@ -1035,7 +1035,7 @@
                     }
                 }
 
-                .Pais {
+                .pais {
 
                     label {}
 
@@ -1045,7 +1045,7 @@
                     }
                 }
 
-                .Motivo {
+                .motivo {
 
                     label {}
 
@@ -1055,14 +1055,14 @@
                     }
                 }
 
-                .Mensaje {
+                .mensaje {
 
                     label {}
 
                     textarea {}
                 }
 
-                .EnviarRestablecer {
+                .enviar_restablecer {
 
                     input {}
                 }
@@ -1070,12 +1070,12 @@
         }
     }
 
-    .Informacion_Contacto {
+    .informacion_contacto {
         padding: 10px 20px 10px 20px;
 
         iframe {}
 
-        .Contacto_Contenedor {
+        .contacto_contenedor {
             margin-right: 10px;
 
             h2 {}
@@ -1090,42 +1090,42 @@
 }
 
 @media screen and (max-width:810px) {
-    .Formulario {
+    .formulario {
         h2 {}
 
-        .Formulario_Contenedor {
+        .formulario_contenedor {
 
             form {
 
-                .Nombre {
+                .nombre {
 
                     label {}
 
                     input {}
                 }
 
-                .Apellido {
+                .apellido {
 
                     label {}
 
                     input {}
                 }
 
-                .Correo {
+                .correo {
 
                     label {}
 
                     input {}
                 }
 
-                .Contraseña {
+                .contraseña {
 
                     label {}
 
                     input {}
                 }
 
-                .Genero {
+                .genero {
                     label {}
 
                     div {
@@ -1135,7 +1135,7 @@
                     }
                 }
 
-                .Pais {
+                .pais {
 
                     label {}
 
@@ -1145,7 +1145,7 @@
                     }
                 }
 
-                .Motivo {
+                .motivo {
 
                     label {}
 
@@ -1155,14 +1155,14 @@
                     }
                 }
 
-                .Mensaje {
+                .mensaje {
 
                     label {}
 
                     textarea {}
                 }
 
-                .EnviarRestablecer {
+                .enviar_restablecer {
 
                     input {}
                 }
@@ -1170,11 +1170,11 @@
         }
     }
 
-    .Informacion_Contacto {
+    .informacion_contacto {
 
         iframe {}
 
-        .Contacto_Contenedor {
+        .contacto_contenedor {
             margin-top: 10px;
             text-align: center;
 
@@ -1190,14 +1190,14 @@
 }
 
 @media screen and (max-width:800px) {
-    .Formulario {
+    .formulario {
         h2 {}
 
-        .Formulario_Contenedor {
+        .formulario_contenedor {
 
             form {
 
-                .Nombre {
+                .nombre {
 
                     label {}
 
@@ -1206,7 +1206,7 @@
                     }
                 }
 
-                .Apellido {
+                .apellido {
 
                     label {}
 
@@ -1215,7 +1215,7 @@
                     }
                 }
 
-                .Correo {
+                .correo {
 
                     label {}
 
@@ -1224,7 +1224,7 @@
                     }
                 }
 
-                .Contraseña {
+                .contraseña {
 
                     label {}
 
@@ -1233,7 +1233,7 @@
                     }
                 }
 
-                .Genero {
+                .genero {
                     label {}
 
                     div {
@@ -1243,7 +1243,7 @@
                     }
                 }
 
-                .Pais {
+                .pais {
 
                     label {}
 
@@ -1253,7 +1253,7 @@
                     }
                 }
 
-                .Motivo {
+                .motivo {
 
                     label {}
 
@@ -1263,14 +1263,14 @@
                     }
                 }
 
-                .Mensaje {
+                .mensaje {
 
                     label {}
 
                     textarea {}
                 }
 
-                .EnviarRestablecer {
+                .enviar_restablecer {
 
                     input {}
                 }
@@ -1278,11 +1278,11 @@
         }
     }
 
-    .Informacion_Contacto {
+    .informacion_contacto {
 
         iframe {}
 
-        .Contacto_Contenedor {
+        .contacto_contenedor {
             h2 {}
 
             p {}
@@ -1295,16 +1295,16 @@
 }
 
 @media screen and (max-width:576px) {
-    .Formulario {
+    .formulario {
         h2 {
             font-size: 30px;
         }
 
-        .Formulario_Contenedor {
+        .formulario_contenedor {
 
             form {
 
-                .Nombre {
+                .nombre {
 
                     label {
                         font-size: 14px;
@@ -1316,7 +1316,7 @@
                     }
                 }
 
-                .Apellido {
+                .apellido {
 
                     label {
                         font-size: 14px;
@@ -1328,7 +1328,7 @@
                     }
                 }
 
-                .Correo {
+                .correo {
 
                     label {
                         font-size: 14px;
@@ -1340,7 +1340,7 @@
                     }
                 }
 
-                .Contraseña {
+                .contraseña {
 
                     label {
                         font-size: 14px;
@@ -1352,7 +1352,7 @@
                     }
                 }
 
-                .Genero {
+                .genero {
                     label {
                         font-size: 14px;
                     }
@@ -1364,7 +1364,7 @@
                     }
                 }
 
-                .Pais {
+                .pais {
 
                     label {
                         font-size: 14px;
@@ -1377,7 +1377,7 @@
                     }
                 }
 
-                .Motivo {
+                .motivo {
 
                     label {
                         font-size: 14px;
@@ -1390,7 +1390,7 @@
                     }
                 }
 
-                .Mensaje {
+                .mensaje {
 
                     label {
                         font-size: 14px;
@@ -1401,7 +1401,7 @@
                     }
                 }
 
-                .EnviarRestablecer {
+                .enviar_restablecer {
 
                     input {
                         font-size: 14px;
@@ -1415,11 +1415,11 @@
         }
     }
 
-    .Informacion_Contacto {
+    .informacion_contacto {
 
         iframe {}
 
-        .Contacto_Contenedor {
+        .contacto_contenedor {
             h2 {
                 font-size: 16px;
             }
@@ -1440,36 +1440,36 @@
 }
 
 @media screen and (max-width:500px) {
-    .Formulario {
+    .formulario {
         h2 {}
 
-        .Formulario_Contenedor {
+        .formulario_contenedor {
 
             form {
                 width: 80%;
 
-                .Nombre {
+                .nombre {
 
                     label {}
 
                     input {}
                 }
 
-                .Apellido {
+                .apellido {
 
                     label {}
 
                     input {}
                 }
 
-                .Correo {
+                .correo {
 
                     label {}
 
                     input {}
                 }
 
-                .Contraseña {
+                .contraseña {
 
 
                     label {}
@@ -1477,7 +1477,7 @@
                     input {}
                 }
 
-                .Genero {
+                .genero {
                     label {}
 
                     div {
@@ -1487,7 +1487,7 @@
                     }
                 }
 
-                .Pais {
+                .pais {
 
                     label {}
 
@@ -1497,7 +1497,7 @@
                     }
                 }
 
-                .Motivo {
+                .motivo {
 
                     label {}
 
@@ -1507,14 +1507,14 @@
                     }
                 }
 
-                .Mensaje {
+                .mensaje {
 
                     label {}
 
                     textarea {}
                 }
 
-                .EnviarRestablecer {
+                .enviar_restablecer {
 
                     input {}
                 }
@@ -1522,11 +1522,11 @@
         }
     }
 
-    .Informacion_Contacto {
+    .informacion_contacto {
 
         iframe {}
 
-        .Contacto_Contenedor {
+        .contacto_contenedor {
             h2 {}
 
             p {}
@@ -1539,38 +1539,30 @@
 }
 
 @media screen and (max-width:400px) {
-    .Formulario {
+    .formulario {
         h2 {}
 
-        .Formulario_Contenedor {
+        .formulario_contenedor {
 
             form {
                 width: 90%;
 
 
-                .Nombre {
+                .nombre {
 
                     label {}
 
                     input {}
                 }
 
-                .Apellido {
+                .apellido {
 
                     label {}
 
                     input {}
                 }
 
-                .Correo {
-
-
-                    label {}
-
-                    input {}
-                }
-
-                .Contraseña {
+                .correo {
 
 
                     label {}
@@ -1578,7 +1570,15 @@
                     input {}
                 }
 
-                .Genero {
+                .contraseña {
+
+
+                    label {}
+
+                    input {}
+                }
+
+                .genero {
                     label {}
 
                     div {
@@ -1588,7 +1588,7 @@
                     }
                 }
 
-                .Pais {
+                .pais {
 
                     label {}
 
@@ -1598,7 +1598,7 @@
                     }
                 }
 
-                .Motivo {
+                .motivo {
 
                     label {}
 
@@ -1609,14 +1609,14 @@
                     }
                 }
 
-                .Mensaje {
+                .mensaje {
 
                     label {}
 
                     textarea {}
                 }
 
-                .EnviarRestablecer {
+                .enviar_restablecer {
 
                     input {}
                 }
@@ -1624,11 +1624,11 @@
         }
     }
 
-    .Informacion_Contacto {
+    .informacion_contacto {
 
         iframe {}
 
-        .Contacto_Contenedor {
+        .contacto_contenedor {
             h2 {}
 
             p {}
@@ -1641,37 +1641,29 @@
 }
 
 @media screen and (max-width:370px) {
-    .Formulario {
+    .formulario {
         h2 {}
 
-        .Formulario_Contenedor {
+        .formulario_contenedor {
 
             form {
                 width: 95%;
 
-                .Nombre {
+                .nombre {
 
                     label {}
 
                     input {}
                 }
 
-                .Apellido {
+                .apellido {
 
                     label {}
 
                     input {}
                 }
 
-                .Correo {
-
-
-                    label {}
-
-                    input {}
-                }
-
-                .Contraseña {
+                .correo {
 
 
                     label {}
@@ -1679,7 +1671,15 @@
                     input {}
                 }
 
-                .Genero {
+                .contraseña {
+
+
+                    label {}
+
+                    input {}
+                }
+
+                .genero {
                     label {}
 
                     div {
@@ -1689,7 +1689,7 @@
                     }
                 }
 
-                .Pais {
+                .pais {
 
                     label {}
 
@@ -1699,7 +1699,7 @@
                     }
                 }
 
-                .Motivo {
+                .motivo {
 
                     label {}
 
@@ -1710,14 +1710,14 @@
                     }
                 }
 
-                .Mensaje {
+                .mensaje {
 
                     label {}
 
                     textarea {}
                 }
 
-                .EnviarRestablecer {
+                .enviar_restablecer {
 
                     input {}
                 }
@@ -1725,11 +1725,11 @@
         }
     }
 
-    .Informacion_Contacto {
+    .informacion_contacto {
 
         iframe {}
 
-        .Contacto_Contenedor {
+        .contacto_contenedor {
             h2 {}
 
             p {}
@@ -1743,7 +1743,7 @@
 
 //-----MEDIA QUERY EXPERIENCIA-----//
 @media screen and (max-width:1100px) {
-    .Experiencia_ZeroLag {
+    .experiencia_zerolag {
 
         h2 {}
 
@@ -1769,7 +1769,7 @@
 }
 
 @media screen and (max-width:690px) {
-    .Experiencia_ZeroLag {
+    .experiencia_zerolag {
 
         h2 {}
 
@@ -1792,7 +1792,7 @@
 }
 
 @media screen and (max-width:650px) {
-    .Experiencia_ZeroLag {
+    .experiencia_zerolag {
 
 
         h2 {}
@@ -1818,7 +1818,7 @@
 }
 
 @media screen and (max-width:576px) {
-    .Experiencia_ZeroLag {
+    .experiencia_zerolag {
 
         h2 {
             font-size: 30px;

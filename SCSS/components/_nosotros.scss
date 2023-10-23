@@ -1,4 +1,4 @@
-.Quienes_Somos {
+.quienes_somos {
     h2 {
         font-family: 'Courier New', Courier, monospace;
         color: black;
@@ -9,7 +9,7 @@
 
     }
 
-    .Quienes_Somos_Contenedor {
+    .quienes_somos_contenedor {
         @extend %flex-between;
         align-items: start;
         flex-wrap: nowrap;
@@ -39,7 +39,7 @@
     }
 }
 
-.Nuestra_Mision {
+.nuestra_mision {
     h2 {
         font-family: 'Courier New', Courier, monospace;
         font-size: 55px;
@@ -50,7 +50,7 @@
 
     }
 
-    .Nuestra_Mision_Contenedor {
+    .nuestra_mision_contenedor {
         @extend %flex-between;
 
         div {
@@ -76,7 +76,7 @@
     }
 }
 
-.Lo_Que_Nos_Diferencia {
+.lo_que_nos_diferencia {
     h2 {
         font-family: 'Courier New', Courier, monospace;
         font-size: 55px;
@@ -87,7 +87,7 @@
 
     }
 
-    .Lo_Que_Nos_Diferencia_Contenedor {
+    .lo_que_nos_diferencia_contenedor {
         @extend %flex-between;
 
         div {
@@ -112,7 +112,7 @@
     }
 }
 
-.Nuestros_Valores {
+.nuestros_valores {
     h2 {
         font-family: 'Courier New', Courier, monospace;
         font-size: 55px;
@@ -125,7 +125,7 @@
 
     }
 
-    .Nuestros_Valores_Contenedor {
+    .nuestros_valores_contenedor {
         display: flex;
         justify-content: space-evenly;
 
@@ -170,7 +170,7 @@
     }
 }
 
-.Revolución_Digital {
+.revolución_digital {
     h2 {
         font-family: 'Courier New', Courier, monospace;
         font-size: 40px;

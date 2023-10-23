@@ -2,12 +2,12 @@ footer {
     background-color: #0f0f0f;
     padding-top: 10px;
 
-    .Footer_Contenedor {
+    .footer_contenedor {
         display: flex;
         justify-content: space-between;
         align-items: center;
 
-        .Footer_ZeroLag {
+        .footer_zerolag {
             margin-left: 15px;
 
             h2 {
@@ -26,7 +26,7 @@ footer {
             }
         }
 
-        .Medios_De_Pago {
+        .medios_de_pago {
             h3 {
                 color: white;
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -46,7 +46,7 @@ footer {
             }
         }
 
-        .Redes_Sociales {
+        .redes_sociales {
             margin-right: 15px;
             margin-top: 15px;
 
@@ -69,7 +69,7 @@ footer {
         }
     }
 
-    .Derechos_De_Autor {
+    .derechos_de_autor {
         padding-top: 4px;
         padding-bottom: 4px;
         background-color: black;
