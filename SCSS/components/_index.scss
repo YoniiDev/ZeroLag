@@ -21,7 +21,7 @@
             height: 100%;
             border: 2px solid $color-secundario;
             box-shadow: 0px 0px 5px 3px black;
-            margin: 10px;
+            margin: 20px;
             text-align: center;
             background-color: $color-principal;
             padding-bottom: 15px;
@@ -157,7 +157,7 @@
             padding-bottom: 15px;
             border: 2px solid nth($paleta-de-colores, 2);
             box-shadow: 0px 0px 5px 3px black;
-            margin: 10px;
+            margin: 20px;
             text-align: center;
             background-color: nth($paleta-de-colores, 1);
             line-height: 1.2;
@@ -291,7 +291,7 @@
             width: 334px;
             height: 430px;
             border: 2px solid red;
-            margin: 10px;
+            margin: 20px;
             box-shadow: 0px 0px 5px 3px black;
             text-align: center;
             background-color: #0f0f0f;
