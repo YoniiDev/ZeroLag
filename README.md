@@ -41,11 +41,19 @@ ZeroLag es un sitio web estático de tipo e-commerce, creado durante el curso de
 
 ## Screenshot.
 
-A continuación se muestran las imagenes de las distintas paginas que tiene el sitio web.
+A continuación se muestran las imágenes de las distintas páginas que tiene el sitio web.
 
 ### Inicio
 
 <div style="display: flex; justify-content: space-around;">
-    <img src="./img/Screenshot_Inicio1.jpg" alt="Captura de pantalla de la página inicio, primera parte" height="50%" />
-    <img src="./img/Screenshot_Inicio2.jpg" alt="Captura de pantalla de la página inicio, segunda parte" height="50%"/>
+    <img src="./img/Screenshot_Inicio1.jpg" alt="Captura de pantalla de la página inicio, primera parte"/>
+
+    <img src="./img/Screenshot_Inicio2.jpg" alt="Captura de pantalla de la página inicio, segunda parte"/>
+
+    <img src="./img/Screenshot_Inicio3.jpg" alt="Captura de pantalla de la página inicio, tercera parte"/>
+
+    <img src="./img/Screenshot_Inicio4.jpg" alt="Captura de pantalla de la página inicio, cuarta parte"/>
+
+    <img src="./img/Screenshot_Inicio5.jpg" alt="Captura de pantalla de la página inicio, quinta parte"/>
+    
 </div>
