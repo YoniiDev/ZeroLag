@@ -47,13 +47,12 @@ A continuación se muestran las imágenes de las distintas páginas que tiene el
 
 <div style="display: flex; justify-content: space-around;">
     <img src="./img/Screenshot_Inicio1.jpg" alt="Captura de pantalla de la página inicio, primera parte"/>
-
+    <br>
     <img src="./img/Screenshot_Inicio2.jpg" alt="Captura de pantalla de la página inicio, segunda parte"/>
-
+    <br>
     <img src="./img/Screenshot_Inicio3.jpg" alt="Captura de pantalla de la página inicio, tercera parte"/>
-
+    <br>
     <img src="./img/Screenshot_Inicio4.jpg" alt="Captura de pantalla de la página inicio, cuarta parte"/>
-
+    <br>
     <img src="./img/Screenshot_Inicio5.jpg" alt="Captura de pantalla de la página inicio, quinta parte"/>
-    
 </div>
