@@ -118,33 +118,33 @@ A continuación se muestran las imagenes de la versión móvil del sitio web.
 <div style="display: flex; justify-content: space-around;">
   <div style="text-align: center;">
   <h3>Página de Inicio Versión Móvil</h3>
-  <img src="./img/Screenshot_Inicio_MobileDevice.png" alt="Captura de pantalla de la página de inicio, versión móvil"/>
+  <img width=320 src="./img/Screenshot_Inicio_MobileDevice.png" alt="Captura de pantalla de la página de inicio, versión móvil"/>
   </div>
   <div style="text-align: center;">
   <h3>Página de Nosotros Versión Móvil</h3>
-  <img src="./img/Screenshot_Nosotros_MobileDevice.png" alt="Captura de pantalla de la página de nosotros, versión móvil"/>
+  <img width=320 src="./img/Screenshot_Nosotros_MobileDevice.png" alt="Captura de pantalla de la página de nosotros, versión móvil"/>
   </div>
 </div>
 
 <div style="display: flex; justify-content: space-around;">
   <div style="text-align: center;">
     <h3>Página de Productos Versión Móvil</h3>
-    <img src="./img/Screenshot_Productos_MobileDevice.png" alt="Captura de pantalla de la página de inicio, versión móvil"/>
+    <img width=320 src="./img/Screenshot_Productos_MobileDevice.png" alt="Captura de pantalla de la página de inicio, versión móvil"/>
   </div>
   <div style="text-align: center;">
     <h3>Página de Servicios Versión Móvil</h3>
-    <img src="./img/Screenshot_Servicios_MobileDevice.png" alt="Captura de pantalla de la página de nosotros, versión móvil"/>
+    <img width=320 src="./img/Screenshot_Servicios_MobileDevice.png" alt="Captura de pantalla de la página de nosotros, versión móvil"/>
   </div>
 </div>
 
 <div style="display: flex; justify-content: space-around;">
   <div style="text-align: center;">
     <h3>Página de Contacto Versión Móvil</h3>
-    <img src="./img/Screenshot_Contacto_MobileDevice.png" alt="Captura de pantalla de la página de contacto, versión móvil"/>
+    <img width=320 src="./img/Screenshot_Contacto_MobileDevice.png" alt="Captura de pantalla de la página de contacto, versión móvil"/>
   </div>
   <div style="text-align: center;">
     <h3>Página de Experiencia Versión Móvil</h3>
-    <img src="./img/Screenshot_Experiencia_MobileDevice.png" alt="Captura de pantalla de la página de nosotros, versión móvil"/>
+    <img width=320 src="./img/Screenshot_Experiencia_MobileDevice.png" alt="Captura de pantalla de la página de nosotros, versión móvil"/>
   </div>
 </div>
 </details>
