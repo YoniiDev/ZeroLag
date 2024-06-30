@@ -16,7 +16,7 @@ ZeroLag es un sitio web estático de tipo e-commerce, creado durante el curso de
     - [Página de Servicios Versión de Escritorio](#página-de-servicios-versión-de-escritorio)
     - [Página de Contacto Versión de Escritorio](#página-de-contacto-versión-de-escritorio)
     - [Página de Experiencia Versión de Escritorio](#página-de-experiencia-versión-de-escritorio)
-  - [Capturas de pantalla de la Versión Móvil](#Capturas-de-pantalla-de-la-versión-movil)
+  - [Capturas de pantalla de la Versión Móvil](#capturas-de-pantalla-de-la-versión-móvil)
     - [Página de Inicio Versión Móvil](#página-de-inicio-versión-móvil)
     - [Página de Nosotros Versión Móvil](#página-de-nosotros-versión-móvil)
     - [Página de Productos Versión Móvil](#página-de-productos-versión-móvil)
