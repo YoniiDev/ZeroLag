@@ -115,7 +115,7 @@ A continuación se muestran las imagenes de la versión de escritorio del sitio 
 <br>
 A continuación se muestran las imagenes de la versión móvil del sitio web.
 
-<div style="display: flex; justify-content: space-around;">
+<div style="display: flex; flex-direction: row;">
   <div style="text-align: center;">
   <h3>Página de Inicio Versión Móvil</h3>
   <img width=320 src="./img/Screenshot_Inicio_MobileDevice.png" alt="Captura de pantalla de la página de inicio, versión móvil"/>
@@ -126,7 +126,7 @@ A continuación se muestran las imagenes de la versión móvil del sitio web.
   </div>
 </div>
 
-<div style="display: flex; justify-content: space-around;">
+<div style="display: flex; flex-direction: row;">
   <div style="text-align: center;">
     <h3>Página de Productos Versión Móvil</h3>
     <img width=320 src="./img/Screenshot_Productos_MobileDevice.png" alt="Captura de pantalla de la página de inicio, versión móvil"/>
@@ -137,7 +137,7 @@ A continuación se muestran las imagenes de la versión móvil del sitio web.
   </div>
 </div>
 
-<div style="display: flex; justify-content: space-around;">
+<div style="display: flex; flex-direction: row;">
   <div style="text-align: center;">
     <h3>Página de Contacto Versión Móvil</h3>
     <img width=320 src="./img/Screenshot_Contacto_MobileDevice.png" alt="Captura de pantalla de la página de contacto, versión móvil"/>
