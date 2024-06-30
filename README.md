@@ -9,14 +9,14 @@ ZeroLag es un sitio web estático de tipo e-commerce, creado durante el curso de
   - [Tabla de Contenidos](#tabla-de-contenidos)
   - [Características](#características)
   - [Tecnologías Utilizadas](#tecnologías-utilizadas)
-  - [Screenshot Versión de Escritorio](#screenshot-versión-de-escritorio)
+  - [Capturas de pantalla de la Versión de Escritorio](#capturas-de-pantalla-de-la-versión-de-escritorio)
     - [Página de Inicio Versión de Escritorio](#página-de-inicio-versión-de-escritorio)
     - [Página de Nosotros Versión de Escritorio](#página-de-nosotros-versión-de-escritorio)
     - [Página de Productos Versión de Escritorio](#página-de-productos-versión-de-escritorio)
     - [Página de Servicios Versión de Escritorio](#página-de-servicios-versión-de-escritorio)
     - [Página de Contacto Versión de Escritorio](#página-de-contacto-versión-de-escritorio)
     - [Página de Experiencia Versión de Escritorio](#página-de-experiencia-versión-de-escritorio)
-  - [Screenshot Versión Móvil](#screenshot-versión-móvil)
+  - [Capturas de pantalla de la Versión Móvil](#Capturas-de-pantalla-de-la-versión-movil)
     - [Página de Inicio Versión Móvil](#página-de-inicio-versión-móvil)
     - [Página de Nosotros Versión Móvil](#página-de-nosotros-versión-móvil)
     - [Página de Productos Versión Móvil](#página-de-productos-versión-móvil)
@@ -111,22 +111,22 @@ A continuación se muestran las imagenes de la versión de escritorio del sitio 
 
 ## Capturas de Pantalla de la Versión Móvil
 <details>
-<summary>Click para expandir las capturas de pantalla</summary>
-<br>
+  <summary>Click para expandir las capturas de pantalla</summary>
+  <br>
 A continuación se muestran las imagenes de la versión móvil del sitio web.
 
-<div style="display: flex; flex-direction: row;">
+<div style="display: flex; justify-content: space-around;">
   <div style="text-align: center;">
-  <h3>Página de Inicio Versión Móvil</h3>
-  <img width=320 src="./img/Screenshot_Inicio_MobileDevice.png" alt="Captura de pantalla de la página de inicio, versión móvil"/>
+    <h3>Página de Inicio Versión Móvil</h3>
+    <img width=320 src="./img/Screenshot_Inicio_MobileDevice.png" alt="Captura de pantalla de la página de inicio, versión móvil"/>
   </div>
   <div style="text-align: center;">
-  <h3>Página de Nosotros Versión Móvil</h3>
-  <img width=320 src="./img/Screenshot_Nosotros_MobileDevice.png" alt="Captura de pantalla de la página de nosotros, versión móvil"/>
+    <h3>Página de Nosotros Versión Móvil</h3>
+    <img width=320 src="./img/Screenshot_Nosotros_MobileDevice.png" alt="Captura de pantalla de la página de nosotros, versión móvil"/>
   </div>
 </div>
 
-<div style="display: flex; flex-direction: row;">
+<div style="display: flex; justify-content: space-around;">
   <div style="text-align: center;">
     <h3>Página de Productos Versión Móvil</h3>
     <img width=320 src="./img/Screenshot_Productos_MobileDevice.png" alt="Captura de pantalla de la página de inicio, versión móvil"/>
@@ -137,7 +137,7 @@ A continuación se muestran las imagenes de la versión móvil del sitio web.
   </div>
 </div>
 
-<div style="display: flex; flex-direction: row;">
+<div style="display: flex; justify-content: space-around;">
   <div style="text-align: center;">
     <h3>Página de Contacto Versión Móvil</h3>
     <img width=320 src="./img/Screenshot_Contacto_MobileDevice.png" alt="Captura de pantalla de la página de contacto, versión móvil"/>
