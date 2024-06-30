@@ -31,7 +31,6 @@ ZeroLag es un sitio web estático de tipo e-commerce, creado durante el curso de
   - [Autores](#autores)
   - [Agradecimientos](#agradecimientos)
 <br>
-<br>
 
 ## Características
 
@@ -56,7 +55,6 @@ ZeroLag es un sitio web estático de tipo e-commerce, creado durante el curso de
 - **Formulario de Contacto:** Se elaboró la estructura de un formulario de contacto utilizando HTML y CSS.
 
 - **Responsive:** El sitio web ZeroLag es totalmente responsivo hasta un ancho mínimo de 320px, pudiéndose visualizar en varios tamaños de pantalla: celular, tablet o desktop.
-<br>
 <br>
 
 ## Tecnologías Utilizadas
@@ -118,45 +116,38 @@ A continuación se muestran las imagenes de la versión de escritorio del sitio 
 A continuación se muestran las imagenes de la versión móvil del sitio web.
 
 <div style="display: flex; justify-content: space-around;">
-  <div>
-
-  ### Página de Inicio Versión Móvil
+  <div style="text-align: center;">
+  <h3>Página de Inicio Versión Móvil</h3>
   <img src="./img/Screenshot_Inicio_MobileDevice.png" alt="Captura de pantalla de la página de inicio, versión móvil"/>
   </div>
-  <div>
-  
-  ### Página de Nosotros Versión Móvil
+  <div style="text-align: center;">
+  <h3>Página de Nosotros Versión Móvil</h3>
   <img src="./img/Screenshot_Nosotros_MobileDevice.png" alt="Captura de pantalla de la página de nosotros, versión móvil"/>
   </div>
 </div>
 
 <div style="display: flex; justify-content: space-around;">
-  <div>
-
-   ### Página de Productos Versión Móvil
-  <img src="./img/Screenshot_Productos_MobileDevice.png" alt="Captura de pantalla de la página de inicio, versión móvil"/>
+  <div style="text-align: center;">
+    <h3>Página de Productos Versión Móvil</h3>
+    <img src="./img/Screenshot_Productos_MobileDevice.png" alt="Captura de pantalla de la página de inicio, versión móvil"/>
   </div>
-  <div>
-  
-  ### Página de Servicios Versión Móvil
-  <img src="./img/Screenshot_Servicios_MobileDevice.png" alt="Captura de pantalla de la página de nosotros, versión móvil"/>
+  <div style="text-align: center;">
+    <h3>Página de Servicios Versión Móvil</h3>
+    <img src="./img/Screenshot_Servicios_MobileDevice.png" alt="Captura de pantalla de la página de nosotros, versión móvil"/>
   </div>
 </div>
 
 <div style="display: flex; justify-content: space-around;">
-  <div>
-
-   ### Página de Contacto Versión Móvil
-  <img src="./img/Screenshot_Contacto_MobileDevice.png" alt="Captura de pantalla de la página de contacto, versión móvil"/>
+  <div style="text-align: center;">
+    <h3>Página de Contacto Versión Móvil</h3>
+    <img src="./img/Screenshot_Contacto_MobileDevice.png" alt="Captura de pantalla de la página de contacto, versión móvil"/>
   </div>
-  <div>
-  
-  ### Página de Experiencia Versión Móvil
-  <img src="./img/Screenshot_Experiencia_MobileDevice.png" alt="Captura de pantalla de la página de nosotros, versión móvil"/>
+  <div style="text-align: center;">
+    <h3>Página de Experiencia Versión Móvil</h3>
+    <img src="./img/Screenshot_Experiencia_MobileDevice.png" alt="Captura de pantalla de la página de nosotros, versión móvil"/>
   </div>
 </div>
 </details>
-<br>
 <br>
 
 ## Instalación
@@ -179,7 +170,6 @@ Sigue estos pasos para instalar y ejecutar el proyecto ZeroLag en tu máquina lo
 
     Se recomienda tener definido el directorio donde se clonará el proyecto y abrir el Visual Studio Code haciendo referencia a la ruta de esa carpeta.
 <br>
-<br>
 
 2. **Clonar el repositorio**
   
@@ -189,7 +179,6 @@ Sigue estos pasos para instalar y ejecutar el proyecto ZeroLag en tu máquina lo
         git clone https://github.com/YoniiDev/ZeroLag.git
 
     Si estás utilizando un entorno de desarrollo con soporte para Live Server, puedes clonar el proyecto en ese entorno para una mejor experiencia de desarrollo.
-<br>
 <br>
 
 3. **Navegar al directorio del proyecto**
@@ -238,7 +227,6 @@ Sigue estos pasos para instalar y ejecutar el proyecto ZeroLag en tu máquina lo
 
     Esto compilará los archivos SASS a CSS y aplicará los cambios en tiempo real. Cabe destacar que solo se deben modificar los estilos en los archivos con la extensión .scss y no modificar, por ningún motivo, el archivo estilos.css.
 <br>
-<br>
 
 6. **Personalizar el proyecto**
 
@@ -260,16 +248,13 @@ Una vez que hayas instalado el proyecto ZeroLag siguiendo las instrucciones de l
     <br>
     <br>
     La siguiente imagen muestra cómo iniciar la extensión Live Server desde la barra de estado de Visual Studio Code.
-
     <br>
     <br>
     <div style="text-align: center;">
     <img src="./img/Screenshot_Iniciar_LiveServer.jpg" alt="Captura de pantalla de como iniciar la extension LiverServer"/>
     </div>
     <br>
-    <br>
    Tambien puedes abrir el archivo `index.html` en tu navegador web, haciendo click derecho sobre `index.html` y luego en Open with Live Server.
-    <br>
     <br>
     <div style="text-align: center;">
     <img src="./img/Screenshot_Iniciar_LiverServer_SegundoMetodo.jpg" alt="Captura de pantalla con el segundo metodo para iniciar la extension LiverServer"/>
@@ -287,7 +272,6 @@ Una vez que hayas instalado el proyecto ZeroLag siguiendo las instrucciones de l
    - **Contacto:** Formulario de contacto para que los usuarios se pongan en contacto con la tienda.
    - **Experiencia:** Página con testimonios y experiencias de clientes.
 <br>
-<br>
 
 3. **Interacción con el contenido**
 
@@ -296,7 +280,6 @@ Dado que este proyecto es un sitio web estático y no incluye funcionalidades di
  - **Carrusel:** En la página de inicio, utiliza las flechas del carrusel para navegar a través de las ofertas destacadas.
  - **Formulario de contacto:** Completa el formulario de contacto y envía tus consultas o comentarios. Nota: Esta es una simulación y el formulario no enviará datos reales a un servidor.
 <br>
-<br>
 
 ## Autores
 
@@ -304,7 +287,6 @@ El proyecto ZeroLag ha sido desarrollado por:
 
 - **YoniiDev** - Desarrollador principal
   - [GitHub](https://github.com/YoniiDev)
-<br>
 <br>
 
 ## Agradecimientos
